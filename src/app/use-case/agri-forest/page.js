@@ -8,13 +8,13 @@ export const metadata = {
 export default function AgriForestPage() {
   return (
     <main className="use-case-container">
-      {/* Memanggil sub-navigasi statis dengan penanda active */}
+      {/* Calling Active Use Case Sub Navigation (agri-forest) */}
       <UseCaseSubNav active="agri-forest" />
 
-      {/* Grid Konten Utama */}
+      {/* Main Content Grid */}
       <div className="case-grid">
         
-        {/* Item 1: Irrigation Modeling */}
+        {/* Irrigation Modeling */}
         <div className="case-item">
           <h3 className="project-title">Irigation Modeling</h3>
           <img 
@@ -31,7 +31,7 @@ export default function AgriForestPage() {
           </div>
         </div>
 
-        {/* Item 2: Forest Crop Estimation */}
+        {/* Forest Crop Estimation */}
         <div className="case-item">
           <h3 className="project-title">Forest Crop Estimation</h3>
           <img 

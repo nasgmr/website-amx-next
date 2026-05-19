@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2024Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan mengatur active tab ke 2024 */}
+      {/* Calling Portfolio Sub Navigation (2024) */}
       <PortfolioSubNav active="2024" />
 
-      {/* Konten List Portfolio 2024 */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>Augmented Reality Drone Assisted Scouting, Indonesian Ministry of Education and Culture-UGM</p>

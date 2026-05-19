@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2025Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan mengatur active tab ke 2025 */}
+      {/* Calling Portfolio Sub Navigation (2025) */}
       <PortfolioSubNav active="2025" />
 
-      {/* Konten List Portfolio 2025 */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>Sumbawa Gold Mine Aerial Mapping, PT Intam, Indonesia</p>

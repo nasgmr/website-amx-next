@@ -16,7 +16,7 @@ export default function EducationPage() {
             <h4 className="product-category">DIY Drone for Students and Hobbyist</h4>
             <h1 className="product-title" style={{ fontWeight: 525 }}>QUBIT</h1>
             <p>Qubit is a mini quad copter type drone. Design for students (10 years+) and drone hobbyist. Perfect for learn how to build, coding, and operate a drone.</p>
-            <a href="/products/qubit" className="btn-learn-more-products">Click Here For More</a>
+            <a href="/products/education/qubit" className="btn-learn-more-products">Click Here For More</a>
           </div>
         </div>
       </section>

@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2018Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan Animasi Pesawat */}
+      {/* Calling Portfolio Sub Navigation (2018) */}
       <PortfolioSubNav active="2018" />
 
-      {/* Konten List Portfolio */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>UAV for Mapping Training, Pekalongan (Indonesia), Indonesian Ministry of Villages</p>

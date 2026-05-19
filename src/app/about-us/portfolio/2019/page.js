@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2019Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan mengatur active tab ke 2019 */}
+      {/* Calling Portfolio Sub Navigation (2019) */}
       <PortfolioSubNav active="2019" />
 
-      {/* Konten List Portfolio 2019 */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>850Ha Industrial Forest Aerial Mapping, Barito Utara (Indonesia), PT Geomatrix Radhika Nusantara</p>

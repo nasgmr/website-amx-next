@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2020Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan mengatur active tab ke 2020 */}
+      {/* Calling Portfolio Sub Navigation (2020) */}
       <PortfolioSubNav active="2020" />
 
-      {/* Konten List Portfolio 2020 */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>Flight Data Recorder for Sukhoi SU-27/30 Fighter Pilot, Indonesia, Indonesian Air Force</p>

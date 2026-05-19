@@ -8,13 +8,13 @@ export const metadata = {
 export default function AgriPlantPage() {
   return (
     <main className="use-case-container">
-      {/* Memanggil sub-navigasi statis dengan penanda active "agri-plant" */}
+      {/* Calling Active Use Case Sub Navigation (agri-plant) */}
       <UseCaseSubNav active="agri-plant" />
 
-      {/* Grid Konten Utama */}
+      {/* Main Content Grid */}
       <div className="case-grid">
         
-        {/* Item 1: Soil Nutrient Estimation */}
+        {/* Soil Nutrient Estimation */}
         <div className="case-item">
           <h3 className="project-title">Soil Nutrient Estimation</h3>
           <img 
@@ -31,7 +31,7 @@ export default function AgriPlantPage() {
           </div>
         </div>
 
-        {/* Item 2: Soil Moisture Estimation */}
+        {/* Soil Moisture Estimation */}
         <div className="case-item">
           <h3 className="project-title">Soil Moisture Estimation</h3>
           <img 

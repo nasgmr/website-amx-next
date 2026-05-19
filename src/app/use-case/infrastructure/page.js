@@ -8,13 +8,13 @@ export const metadata = {
 export default function InfrastructurePage() {
   return (
     <main className="use-case-container">
-      {/* Memanggil sub-navigasi statis dengan penanda active "infrastructure" */}
+      {/* Calling Active Use Case Sub Navigation (infrastructure) */}
       <UseCaseSubNav active="infrastructure" />
 
-      {/* Grid Konten Utama */}
+      {/* Main Content Grid */}
       <div className="case-grid">
         
-        {/* Item 1: Land Use and Industrial Site Planning */}
+        {/* Land Use and Industrial Site Planning */}
         <div className="case-item">
           <h3 className="project-title">Land Use and Industrial Site Planning</h3>
           <img 
@@ -31,7 +31,7 @@ export default function InfrastructurePage() {
           </div>
         </div>
 
-        {/* Item 2: Gas Pipeline Planning */}
+        {/* Gas Pipeline Planning */}
         <div className="case-item">
           <h3 className="project-title">Gas Pipeline Planning</h3>
           <img 

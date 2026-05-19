@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2022Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan mengatur active tab ke 2022 */}
+      {/* Calling Portfolio Sub Navigation (2022) */}
       <PortfolioSubNav active="2022" />
 
-      {/* Konten List Portfolio 2022 */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>VR Development for Tourism Object Promotion, Indonesian Ministry of Education and Culture</p>

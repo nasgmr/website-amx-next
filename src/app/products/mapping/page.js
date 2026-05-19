@@ -17,7 +17,7 @@ export default function MappingPage() {
             <h1 className="product-title" style={{ fontWeight: 525 }}>VERTIC AIR</h1>
             <p>Vertic Air is easy to control, fully autonomous, and capable to operate from narrow vertical take off-landing (VTOL) mapping drone. Vertic air is ready for various application such as agriculture, asset monitoring, construction and engineering planning, and military surveillance.</p>
             <div className="product-buttons-container">
-              <a href="/products/vertic-air" className="btn-learn-more-products">Click Here For More</a>
+              <a href="/products/mapping/vertic-air" className="btn-learn-more-products">Click Here For More</a>
               <a href="https://katalog.inaproc.id/amx-uav-technologies/drone-pemetaan-evtol-vertic-air" target="_blank" rel="noopener noreferrer" className="btn-shop">See Product</a>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default function MappingPage() {
             <h4 className="product-category">Multipurpose eVTOL Drone</h4>
             <h1 className="product-title" style={{ fontWeight: 525 }}>VERTIC XL</h1>
             <p>Vertic is quad tail-sitter vertical take off-landing (VTOL) mapping drone that easy to control, fully autonomous, and capable operate from narrow site. Vertic is ready for various application such as agriculture, urban planning, plantation, mining, forestry, and oil and gas.</p>
-            <a href="/products/vertic-xl" className="btn-learn-more-products">Click Here For More</a>
+            <a href="/products/mapping/vertic-xl" className="btn-learn-more-products">Click Here For More</a>
           </div>
         </div>
       </section>

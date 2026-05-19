@@ -8,13 +8,13 @@ export const metadata = {
 export default function TourismPage() {
   return (
     <main className="use-case-container">
-      {/* Memanggil sub-navigasi statis dengan penanda active "tourism" */}
+      {/* Calling Active Use Case Sub Navigation (tourism) */}
       <UseCaseSubNav active="tourism" />
 
-      {/* Grid Konten Utama */}
+      {/* Main Content Grid */}
       <div className="case-grid">
         
-        {/* Item 1: Virtual Reality For Tourism Promotion */}
+        {/* Virtual Reality For Tourism Promotion */}
         <div className="case-item">
           <h3 className="project-title">Virtual Reality For Tourism Promotion</h3>
           <img 
@@ -31,7 +31,7 @@ export default function TourismPage() {
           </div>
         </div>
 
-        {/* Item 2: Nickel Mine Site Inventory */}
+        {/* Nickel Mine Site Inventory */}
         <div className="case-item">
           <h3 className="project-title">Nickel Mine Site Inventory</h3>
           <img 

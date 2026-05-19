@@ -8,10 +8,10 @@ export const metadata = {
 export default function Portfolio2021Page() {
   return (
     <main className="portfolio-container portfolio-page">
-      {/* Memanggil Navigasi dan mengatur active tab ke 2021 */}
+      {/* Calling Portfolio Sub Navigation (2021) */}
       <PortfolioSubNav active="2021" />
 
-      {/* Konten List Portfolio 2021 */}
+      {/* Main Content Grid */}
       <div className="portfolio-list">
         <div className="portfolio-item">
           <p>AMX SKX Upgrade and Modification, Indonesia, Badan Informasi Geospasial</p>
