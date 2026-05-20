@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* 4. BASIC ARTICLES SECTION */}
       <section className="hp-basic-articles-section">
-        <h1 className="hp-section-title" style={{ fontSize: '35px' }}> 
+        <h1 className="hp-section-title hp-split-title"> 
           Whether starting out or scaling up 
           <span className="mobile-break-text">—AMX UAV delivers precision data, simplified.</span>
         </h1>
