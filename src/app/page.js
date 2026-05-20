@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
   const [galleryPos, setGalleryPos] = useState(['pos-left', 'pos-center', 'pos-right']);
-  const galleryRef = useRef(null);
 
   const nextSlide = () => {
     setGalleryPos((prev) => {
@@ -22,45 +21,6 @@ export default function Home() {
       return newPos;
     });
   };
-
-// Logic Swipe Mobile dengan pencegahan Scroll
-  useEffect(() => {
-    const galleryElement = galleryRef.current;
-    let touchStartX = 0;
-    let touchStartY = 0; // Tambahkan ini
-
-    const handleTouchStart = (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-      touchStartY = e.changedTouches[0].screenY;
-    };
-
-    const handleTouchEnd = (e) => {
-      const touchEndX = e.changedTouches[0].screenX;
-      const touchEndY = e.changedTouches[0].screenY;
-
-      // Hitung selisih gerakan
-      const deltaX = touchEndX - touchStartX;
-      const deltaY = touchEndY - touchStartY;
-
-      // Hanya geser jika gerakan horizontal lebih dominan daripada vertikal
-      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
-        if (deltaX < 0) nextSlide(); // Swipe Kiri
-        if (deltaX > 0) prevSlide(); // Swipe Kanan
-      }
-    };
-
-    if (galleryElement) {
-      galleryElement.addEventListener('touchstart', handleTouchStart);
-      galleryElement.addEventListener('touchend', handleTouchEnd);
-    }
-
-    return () => {
-      if (galleryElement) {
-        galleryElement.removeEventListener('touchstart', handleTouchStart);
-        galleryElement.removeEventListener('touchend', handleTouchEnd);
-      }
-    };
-  }, [nextSlide, prevSlide]);
 
   return (
     <div className="homepage-body">
@@ -170,7 +130,7 @@ export default function Home() {
       {/* 6. GALLERY SECTION */}
       <section className="hp-gallery-section">
         <h1 className="hp-section-title">OUR GALLERY</h1>
-        <div className="hp-gallery-container" ref={galleryRef}>
+        <div className="hp-gallery-container">
           <div className="hp-arrow" onClick={prevSlide} id="prevBtn"><i className="fas fa-caret-left"></i></div>
           
           <div className="hp-gallery-track">

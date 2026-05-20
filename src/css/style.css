@@ -2145,31 +2145,25 @@ html, body, .homepage-body {
   }
 
   .hp-gallery-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
   }
 
-.hp-gallery-track {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
+  .hp-slider-node {
+  transition: all 0.5s ease-in-out !important;
+  }
 
-.hp-gallery-track::-webkit-scrollbar {
-  display: none;
-}
+  .hp-gallery-track {
+    width: 100%;
+    height: 380px;
+    position: relative;
+  }
 
-.hp-frame {
-  scroll-snap-align: center;
-  flex: 0 0 80%;
-}
+  .hp-frame {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px #00000066;
+  }
 
 .pos-left {
     width: 150px;
@@ -2199,8 +2193,35 @@ html, body, .homepage-body {
     z-index: 1;
   }
 
-  #prevBtn, #nextBtn, .hp-arrow {
-    display: none !important;
+  .hp-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 30;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Jadi bulat */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .hp-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #1a1a1a;
+  }
+
+  #prevBtn {
+    left: 10px;
+  }
+
+  #nextBtn {
+    right: 10px;
   }
 
   /* PRODUCTS PAGE */
