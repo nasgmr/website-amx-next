@@ -1408,7 +1408,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  filter: grayscale(100%);
+  filter: none;
   transition: all 0.3s ease;
 }
 
@@ -1428,7 +1428,7 @@ body {
 }
 
 .partner-card:hover .partner-logo-box img {
-  filter: grayscale(0%);
+  filter: none;
 }
 
 /* ABOUT US - PORTFOLIO PAGE */
@@ -2709,6 +2709,12 @@ html, body, .homepage-body {
     width: 100% !important;
     z-index: 9998 !important;
 
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+
     background-color: #8c8c8c !important;
 
     display: flex !important;
@@ -2720,6 +2726,7 @@ html, body, .homepage-body {
     align-items: center !important;
 
     padding: 12px 15px !important;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom)) !important;
     box-sizing: border-box !important;
     margin: 0 !important;
   }
@@ -2749,10 +2756,5 @@ html, body, .homepage-body {
     margin: 0 !important;
     line-height: 1.4 !important;
     display: block !important;
-  }
-
-  /* PAPER PLANE - ANIMATION MOBILE */
-  .flying-plane {
-    width: 70px;
   }
 }

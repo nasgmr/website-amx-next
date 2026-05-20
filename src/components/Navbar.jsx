@@ -7,6 +7,11 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setOpenDropdown(null);
+  };
+
   const toggleMenu = () => {
     setMenuOpen(prev => !prev);
     setOpenDropdown(null);
@@ -19,7 +24,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link href="/">
+        <Link href="/" onClick={closeMenu}>
           <img src="/img/logo.png" alt="AMX UAV Logo" width={100} height="auto" />
         </Link>
       </div>
@@ -49,13 +54,14 @@ export default function Navbar() {
             Products
           </a>
           <div className={`dropdown-content${openDropdown === 'products' ? ' show-mobile' : ''}`}>
-            <Link href="/products">Products</Link>
-            <Link href="/products/dronepedia">Dronepedia</Link>
+            {/* Tambahkan closeMenu di setiap Link */}
+            <Link href="/products" onClick={closeMenu}>Products</Link>
+            <Link href="/products/dronepedia" onClick={closeMenu}>Dronepedia</Link>
           </div>
         </li>
 
-        <li><Link href="/services">Services</Link></li>
-        <li><Link href="/use-case">Use Case</Link></li>
+        <li><Link href="/services" onClick={closeMenu}>Services</Link></li>
+        <li><Link href="/use-case" onClick={closeMenu}>Use Case</Link></li>
 
         <li className="dropdown">
           <a
@@ -71,19 +77,19 @@ export default function Navbar() {
             About Us
           </a>
           <div className={`dropdown-content${openDropdown === 'about' ? ' show-mobile' : ''}`}>
-            <Link href="/about-us" className="mobile-only-menu" style={{ fontWeight: 'bold', color: '#959595' }}>
+            <Link href="/about-us" className="mobile-only-menu" onClick={closeMenu} style={{ fontWeight: 'bold', color: '#959595' }}>
               About Us Overview
             </Link>
-            <Link href="/about-us/business-scale">Business Scale Overview</Link>
-            <Link href="/about-us/partners-clients">Partners & Clients</Link>
-            <Link href="/about-us/portfolio">Portfolio</Link>
-            <Link href="/about-us/articles">Articles</Link>
+            <Link href="/about-us/business-scale" onClick={closeMenu}>Business Scale Overview</Link>
+            <Link href="/about-us/partners-clients" onClick={closeMenu}>Partners & Clients</Link>
+            <Link href="/about-us/portfolio" onClick={closeMenu}>Portfolio</Link>
+            <Link href="/about-us/articles" onClick={closeMenu}>Articles</Link>
           </div>
         </li>
       </ul>
 
       <div className={`nav-actions${menuOpen ? ' active' : ''}`} id="nav-actions">
-        <a href="https://wa.me/+62811292565" target="_blank" rel="noopener noreferrer" className="btn-sales">
+        <a href="https://wa.me/+62811292565" target="_blank" rel="noopener noreferrer" className="btn-sales" onClick={closeMenu}>
           Talk To Sales
         </a>
       </div>
