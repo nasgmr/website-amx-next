@@ -93,7 +93,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/products/vertic-xl" className="hp-basic-articles-card-list">
+          <Link href="/products/mapping/vertic-xl" className="hp-basic-articles-card-list">
             <div className="hp-basic-card-list-text">
               <h3 className="hp-basic-article-title">Already Flying?</h3>
               <p className="hp-excerpt">Elevate your results with Vertic XL. Our flagship eVTOL is engineered for long-range missions and total data confidence.</p>
