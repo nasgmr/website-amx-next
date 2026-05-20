@@ -42,6 +42,12 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 .nav-links {
@@ -1810,6 +1816,12 @@ html, body, .homepage-body {
     justify-content: space-between;
     padding: 15px 20px;
     box-sizing: border-box;
+
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
   }
 
   .navbar img {
