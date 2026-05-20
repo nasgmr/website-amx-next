@@ -10,7 +10,7 @@ export default function UseCaseSubNav({ active }) {
   };
 
   return (
-    <div className="use-case-header-section" style={{ marginBottom: '0px', paddingBottom: '0' }}>
+    <div className="use-case-header-section">
       <h4 className="use-case-label" style={{ fontWeight: 600 }}>USE CASE</h4>
       <nav className="sub-nav">
         <Link href="/use-case/infrastructure" className={active === 'infrastructure' ? 'active' : ''}>INFRASTRUCTURE</Link>

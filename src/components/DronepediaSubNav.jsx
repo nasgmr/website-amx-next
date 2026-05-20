@@ -9,7 +9,7 @@ export default function DronepediaSubNav({ active }) {
   };
 
   return (
-    <div className="use-case-header-section" style={{ marginBottom: '0px', paddingBottom: '0' }}>
+    <div className="use-case-header-section">
       <h4 className="use-case-label" style={{ fontWeight: 600 }}>DRONEPEDIA</h4>
       <nav className="sub-nav">
         <Link href="/products/dronepedia/how-it-works" className={active === 'how-it-works' ? 'active' : ''}>HOW IT WORKS</Link>

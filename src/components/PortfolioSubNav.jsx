@@ -1,23 +1,27 @@
 'use client';
+
 import Link from 'next/link';
 
-export default function PortfolioSubNav({ active }) {
-  const years = ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'];
+const ORDER = ['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'];
 
+export default function PortfolioSubNav({ active }) {
   return (
-    <div className="use-case-header-section" style={{ marginBottom: '0px', paddingBottom: '0' }}>
-      <h4 className="use-case-label" style={{ fontWeight: 600 }}>PORTFOLIO</h4>
-      <nav className="sub-nav">
-        {years.map((year) => (
-          <Link 
-            key={year} 
-            href={`/about-us/portfolio/${year}`} 
-            className={active === year ? 'active' : ''}
+    <>
+      <div className="portfolio-header">
+        <h1 className="category-main-title">PORTFOLIO</h1>
+      </div>
+
+      <div className="timeline-nav">
+        {ORDER.map((year) => (
+          <Link
+            key={year}
+            href={`/about-us/portfolio/${year}`}
+            className={active === year ? 'active-year' : ''}
           >
             {year}
           </Link>
         ))}
-      </nav>
-    </div>
+      </div>
+    </>
   );
 }

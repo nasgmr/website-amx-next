@@ -9,7 +9,7 @@ export default function ProductsSubNav({ active }) {
   };
 
   return (
-    <div className="use-case-header-section" style={{ marginBottom: '0px', paddingBottom: '0' }}>
+    <div className="use-case-header-section">
       <h4 className="use-case-label" style={{ fontWeight: 600 }}>OUR PRODUCTS</h4>
       <nav className="sub-nav">
         <Link href="/products/mapping" className={active === 'mapping' ? 'active' : ''}>MAPPING DRONE</Link>
