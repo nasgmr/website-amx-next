@@ -2200,7 +2200,7 @@ html, body, .homepage-body {
 
   .hp-arrow {
     position: absolute;
-    top: 48%;
+    top: 35%;
     margin-top: -22.5px;
     transform: scale(1);
     z-index: 30;
@@ -2211,13 +2211,15 @@ html, body, .homepage-body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: transform 0.15s ease, background-color 0.3s ease;
-    outline-color:#FFFFFF;
+    transition: transform 0.15s ease-out, background-color 0.15s ease-out;
   }
 
   .hp-arrow:active {
-    transform: scale(1.2);
-    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.2) !important;
+  }
+
+  .hp-arrow:hover {
+      transform: scale(1) !important; 
   }
 
   #prevBtn {
