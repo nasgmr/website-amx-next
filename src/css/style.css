@@ -2036,8 +2036,9 @@ html, body, .homepage-body {
   }
 
   .hp-basic-articles-section .hp-section-title {
-    font-size: 22px !important;
+    font-size: 18px !important;
     line-height: 1.4;
+    margin-bottom: 20px;
   }
 
   .hp-basic-articles-section .hp-section-title br {
