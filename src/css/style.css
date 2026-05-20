@@ -1774,7 +1774,7 @@ body {
 }
 
 /* MOBILE VERSION */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   /* BODY */
   body {
     padding-top: 80px !important;
