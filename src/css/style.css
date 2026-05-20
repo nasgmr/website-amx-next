@@ -2200,7 +2200,7 @@ html, body, .homepage-body {
 
   .hp-arrow {
     position: absolute;
-    top: 35%;
+    top: 40%;
     margin-top: -22.5px;
     transform: scale(1);
     z-index: 30;
@@ -2211,7 +2211,7 @@ html, body, .homepage-body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: transform 0.15s ease-out, background-color 0.15s ease-out;
+    transition: transform 0.15s ease-out;
   }
 
   .hp-arrow:active {
