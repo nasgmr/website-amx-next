@@ -23,18 +23,30 @@ export default function Home() {
     });
   };
 
+// Logic Swipe Mobile dengan pencegahan Scroll
   useEffect(() => {
     const galleryElement = galleryRef.current;
     let touchStartX = 0;
+    let touchStartY = 0; // Tambahkan ini
 
     const handleTouchStart = (e) => {
       touchStartX = e.changedTouches[0].screenX;
+      touchStartY = e.changedTouches[0].screenY;
     };
 
     const handleTouchEnd = (e) => {
       const touchEndX = e.changedTouches[0].screenX;
-      if (touchEndX < touchStartX - 50) nextSlide();
-      if (touchEndX > touchStartX + 50) prevSlide();
+      const touchEndY = e.changedTouches[0].screenY;
+
+      // Hitung selisih gerakan
+      const deltaX = touchEndX - touchStartX;
+      const deltaY = touchEndY - touchStartY;
+
+      // Hanya geser jika gerakan horizontal lebih dominan daripada vertikal
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+        if (deltaX < 0) nextSlide(); // Swipe Kiri
+        if (deltaX > 0) prevSlide(); // Swipe Kanan
+      }
     };
 
     if (galleryElement) {
@@ -48,7 +60,7 @@ export default function Home() {
         galleryElement.removeEventListener('touchend', handleTouchEnd);
       }
     };
-  }, []);
+  }, [nextSlide, prevSlide]);
 
   return (
     <div className="homepage-body">
