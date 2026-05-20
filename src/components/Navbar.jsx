@@ -77,9 +77,6 @@ export default function Navbar() {
             About Us
           </a>
           <div className={`dropdown-content${openDropdown === 'about' ? ' show-mobile' : ''}`}>
-            <Link href="/about-us" className="mobile-only-menu" onClick={closeMenu} style={{ fontWeight: 'bold', color: '#959595' }}>
-              About Us Overview
-            </Link>
             <Link href="/about-us/business-scale" onClick={closeMenu}>Business Scale Overview</Link>
             <Link href="/about-us/partners-clients" onClick={closeMenu}>Partners & Clients</Link>
             <Link href="/about-us/portfolio" onClick={closeMenu}>Portfolio</Link>
