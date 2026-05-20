@@ -2061,6 +2061,7 @@ html, body, .homepage-body {
   .mobile-break-text {
     display: block; 
     margin-top: 8px;
+    margin-bottom: 12px;
     font-size: 16px;
     font-weight: normal;
   }
