@@ -425,6 +425,10 @@ body {
   margin: 0 auto;
 }
 
+.mobile-break-text {
+  display: inline;
+}
+
 .hp-basic-articles-list {
   display: flex;
   gap: 30px;
@@ -2039,6 +2043,11 @@ html, body, .homepage-body {
     font-size: 18px !important;
     line-height: 1.4;
     margin-bottom: 20px;
+  }
+
+  .mobile-break-text {
+    display: block; 
+    margin-top: 10px;
   }
 
   .hp-basic-articles-section .hp-section-title br {

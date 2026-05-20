@@ -80,7 +80,10 @@ export default function Home() {
 
       {/* 4. BASIC ARTICLES SECTION */}
       <section className="hp-basic-articles-section">
-        <h1 className="hp-section-title" style={{ fontSize: '35px' }}> Whether starting out or scaling up <br /> —AMX UAV delivers precision data, simplified.</h1>
+        <h1 className="hp-section-title" style={{ fontSize: '35px' }}> 
+          Whether starting out or scaling up 
+          <span className="mobile-break-text">—AMX UAV delivers precision data, simplified.</span>
+        </h1>
         <div className="hp-basic-articles-list">
           <Link href="/products/dronepedia/how-it-works" className="hp-basic-articles-card-list">
             <div className="hp-basic-card-list-text">
