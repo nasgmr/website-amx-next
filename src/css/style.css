@@ -2165,7 +2165,7 @@ html, body, .homepage-body {
     box-shadow: 0 10px 25px #00000066;
   }
 
-  .pos-left {
+.pos-left {
     width: 150px;
     height: 200px;
     left: -20%;
@@ -2193,23 +2193,8 @@ html, body, .homepage-body {
     z-index: 1;
   }
 
-  #prevBtn {
-    left: 15px;
-  }
-
-  #nextBtn {
-    right: 15px;
-  }
-
-  .hp-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 3.5rem;
-    color: #959595;
-    z-index: 30;
-    opacity: 0.9;
-    text-shadow: 0 0 10px #00000080;
+  #prevBtn, #nextBtn, .hp-arrow {
+    display: none !important;
   }
 
   /* PRODUCTS PAGE */

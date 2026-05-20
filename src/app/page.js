@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
   const [galleryPos, setGalleryPos] = useState(['pos-left', 'pos-center', 'pos-right']);
+  const galleryRef = useRef(null);
 
   const nextSlide = () => {
     setGalleryPos((prev) => {
@@ -21,6 +22,33 @@ export default function Home() {
       return newPos;
     });
   };
+
+  useEffect(() => {
+    const galleryElement = galleryRef.current;
+    let touchStartX = 0;
+
+    const handleTouchStart = (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    };
+
+    const handleTouchEnd = (e) => {
+      const touchEndX = e.changedTouches[0].screenX;
+      if (touchEndX < touchStartX - 50) nextSlide();
+      if (touchEndX > touchStartX + 50) prevSlide();
+    };
+
+    if (galleryElement) {
+      galleryElement.addEventListener('touchstart', handleTouchStart);
+      galleryElement.addEventListener('touchend', handleTouchEnd);
+    }
+
+    return () => {
+      if (galleryElement) {
+        galleryElement.removeEventListener('touchstart', handleTouchStart);
+        galleryElement.removeEventListener('touchend', handleTouchEnd);
+      }
+    };
+  }, []);
 
   return (
     <div className="homepage-body">
@@ -88,7 +116,6 @@ export default function Home() {
               <p className="hp-excerpt">Discover a seamless end-to-end workflow designed to take your operations from the ground to the sky with ease.</p>
             </div>
             <div className="hp-basic-card-list-img">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/img/AMX-GCS.jpg" alt="" />
             </div>
           </Link>
@@ -99,7 +126,6 @@ export default function Home() {
               <p className="hp-excerpt">Elevate your results with Vertic XL. Our flagship eVTOL is engineered for long-range missions and total data confidence.</p>
             </div>
             <div className="hp-basic-card-list-img">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/img/AMX-GCS.jpg" alt="" />
             </div>
           </Link>
@@ -118,7 +144,6 @@ export default function Home() {
                 <Link href={`/about-us/articles/article-${i}`} className="hp-btn-read">Read More</Link>
               </div>
               <div className="hp-card-list-img">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/img/AMX-GCS.jpg" alt="" />
               </div>
             </div>
@@ -133,25 +158,22 @@ export default function Home() {
       {/* 6. GALLERY SECTION */}
       <section className="hp-gallery-section">
         <h1 className="hp-section-title">OUR GALLERY</h1>
-        <div className="hp-gallery-container">
-          <div className="hp-arrow" onClick={prevSlide}><i className="fas fa-caret-left"></i></div>
+        <div className="hp-gallery-container" ref={galleryRef}>
+          <div className="hp-arrow" onClick={prevSlide} id="prevBtn"><i className="fas fa-caret-left"></i></div>
           
           <div className="hp-gallery-track">
             <div className={`hp-frame hp-slider-node ${galleryPos[0]}`}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/img/Use Case - Land Use.png" alt="Land Use" />
             </div>
             <div className={`hp-frame hp-slider-node ${galleryPos[1]}`}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/img/Use Case - Soil Moisture.png" alt="Soil Moisture" />
             </div>
             <div className={`hp-frame hp-slider-node ${galleryPos[2]}`}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/img/Use Case - Irrigation Modelling.png" alt="Irrigation" />
             </div>
           </div>
 
-          <div className="hp-arrow" onClick={nextSlide}><i className="fas fa-caret-right"></i></div>
+          <div className="hp-arrow" onClick={nextSlide} id="nextBtn"><i className="fas fa-caret-right"></i></div>
         </div>
       </section>
 
