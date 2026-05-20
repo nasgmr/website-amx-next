@@ -2141,7 +2141,7 @@ html, body, .homepage-body {
   }
 
   .hp-gallery-section {
-    padding: 10px 0 60px 0;
+    padding: 20px 0 40px 0;
   }
 
   .hp-gallery-container {
@@ -2159,8 +2159,10 @@ html, body, .homepage-body {
 
   .hp-gallery-track {
     width: 100%;
-    height: 380px;
+    height: 360px;
     position: relative;
+    display: flex;
+    align-items: center;
   }
 
   .hp-frame {
