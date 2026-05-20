@@ -65,7 +65,7 @@ export default function Home() {
             </ul>
             
             <div className="hp-btn-footer-mobile">
-              <Link href="/products" className="hp-btn-see-more">See More Products</Link>
+              <Link href="/products" className="btn-see-more-gray">See More Products</Link>
             </div>
           </div>
         </div>
@@ -80,7 +80,6 @@ export default function Home() {
 
       {/* 4. BASIC ARTICLES SECTION */}
       <section className="hp-basic-articles-section">
-        {/* Style inline diubah dari string ke object Javascript */}
         <h1 className="hp-section-title" style={{ fontSize: '35px' }}> Whether starting out or scaling up <br /> —AMX UAV delivers precision data, simplified.</h1>
         <div className="hp-basic-articles-list">
           <Link href="/products/dronepedia/how-it-works" className="hp-basic-articles-card-list">
@@ -88,7 +87,10 @@ export default function Home() {
               <h3 className="hp-basic-article-title">New to Aerial Surveying?</h3>
               <p className="hp-excerpt">Discover a seamless end-to-end workflow designed to take your operations from the ground to the sky with ease.</p>
             </div>
-            <div className="hp-basic-card-list-img"><img src="/img/AMX-GCS.jpg" alt="" /></div>
+            <div className="hp-basic-card-list-img">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/AMX-GCS.jpg" alt="" />
+            </div>
           </Link>
 
           <Link href="/products/vertic-xl" className="hp-basic-articles-card-list">
@@ -96,7 +98,10 @@ export default function Home() {
               <h3 className="hp-basic-article-title">Already Flying?</h3>
               <p className="hp-excerpt">Elevate your results with Vertic XL. Our flagship eVTOL is engineered for long-range missions and total data confidence.</p>
             </div>
-            <div className="hp-basic-card-list-img"><img src="/img/AMX-GCS.jpg" alt="" /></div>
+            <div className="hp-basic-card-list-img">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/AMX-GCS.jpg" alt="" />
+            </div>
           </Link>
         </div>
       </section>
@@ -110,9 +115,12 @@ export default function Home() {
               <div className="hp-card-list-text">
                 <h3 className="hp-article-title">Title Article {i}</h3>
                 <p className="hp-excerpt">Brief information of the article content that makes users interested in reading more.</p>
-                <Link href="/about-us/articles/detail" className="hp-btn-read">Read More</Link>
+                <Link href={`/about-us/articles/article-${i}`} className="hp-btn-read">Read More</Link>
               </div>
-              <div className="hp-card-list-img"><img src="/img/AMX-GCS.jpg" alt="" /></div>
+              <div className="hp-card-list-img">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/img/AMX-GCS.jpg" alt="" />
+              </div>
             </div>
           ))}
         </div>
@@ -126,14 +134,21 @@ export default function Home() {
       <section className="hp-gallery-section">
         <h1 className="hp-section-title">OUR GALLERY</h1>
         <div className="hp-gallery-container">
-          {/* Tombol dengan event onClick bawaan React */}
           <div className="hp-arrow" onClick={prevSlide}><i className="fas fa-caret-left"></i></div>
           
           <div className="hp-gallery-track">
-            {/* Class dinamis dipanggil dari state */}
-            <div className={`hp-frame hp-slider-node ${galleryPos[0]}`}><img src="/img/Use Case - Land Use.png" alt="Land Use" /></div>
-            <div className={`hp-frame hp-slider-node ${galleryPos[1]}`}><img src="/img/Use Case - Soil Moisture.png" alt="Soil Moisture" /></div>
-            <div className={`hp-frame hp-slider-node ${galleryPos[2]}`}><img src="/img/Use Case - Irrigation Modelling.png" alt="Irrigation" /></div>
+            <div className={`hp-frame hp-slider-node ${galleryPos[0]}`}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/Use Case - Land Use.png" alt="Land Use" />
+            </div>
+            <div className={`hp-frame hp-slider-node ${galleryPos[1]}`}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/Use Case - Soil Moisture.png" alt="Soil Moisture" />
+            </div>
+            <div className={`hp-frame hp-slider-node ${galleryPos[2]}`}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/img/Use Case - Irrigation Modelling.png" alt="Irrigation" />
+            </div>
           </div>
 
           <div className="hp-arrow" onClick={nextSlide}><i className="fas fa-caret-right"></i></div>
