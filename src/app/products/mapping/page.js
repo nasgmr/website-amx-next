@@ -39,7 +39,7 @@ export default function MappingPage() {
         <p className="usage-subtitle">AMX UAV offer 2 options for using Drone technology:</p>
         <div className="usage-options">
           <div className="usage-box">
-            <h4 className="content-subtitle">Buy and Operate UAV/Drones Independently</h4>
+            <h4 className="content-subtitle-1">Buy and Operate UAV/Drones Independently</h4>
             <ul className="content-list">
               <li>Suitable for objects that need updates periodically: Agriculture/plantation/forestry monitoring, Media reportation (video/picture), Construction/Infrastructure project report, Survey and disaster mitigation</li>
               <li>Accumulatively, for the long term costs UAV/Drone team production (operational, maintenance, etc.) more economical</li>
@@ -47,7 +47,7 @@ export default function MappingPage() {
             </ul>
           </div>
           <div className="usage-box">
-            <h4 className="content-subtitle">Utilize AMX UAV Professional Services</h4>
+            <h4 className="content-subtitle-2">Utilize AMX UAV Professional Services</h4>
             <ul className="content-list">
               <li>Suitable for objects that don&apos;t need high intensity updates</li>
               <li>Documentation and sites/building modeling</li>

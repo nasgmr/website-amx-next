@@ -2331,7 +2331,13 @@ html, body, .homepage-body {
     margin-bottom: 25px;
   }
 
-  .content-subtitle {
+  .content-subtitle-1 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .content-subtitle-2 {
     font-size: 15px;
     margin-bottom: 10px;
     line-height: 1.3;
