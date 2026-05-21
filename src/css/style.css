@@ -2312,6 +2312,7 @@ html, body, .homepage-body {
 
   .usage-subtitle {
     font-size: 14px !important;
+    margin-bottom: 0px;
   }
 
   .usage-options {
