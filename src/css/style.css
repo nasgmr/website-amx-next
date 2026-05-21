@@ -2344,11 +2344,12 @@ html, body, .homepage-body {
   }
 
   .content-list {
-    padding-left: 13px;
+    padding-left: 12px;
+    margin-bottom: 5px;
   }
 
   .content-list li {
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 8px;
   }
 
