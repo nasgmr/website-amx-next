@@ -26,16 +26,16 @@ export default function EducationPage() {
         <p className="usage-subtitle">AMX UAV offer 2 options for using Drone technology:</p>
         <div className="usage-options">
           <div className="usage-box">
-            <h4 style={{ fontSize: '25px', marginBottom: '15px' }}>Buy and Operate UAV/Drones Independently</h4>
-            <ul>
+            <h4 className="content-subtitle-1">Buy and Operate UAV/Drones Independently</h4>
+            <ul className="content-list">
               <li>Suitable for objects that need updates periodically: Agriculture/plantation/forestry monitoring, Media reportation (video/picture), Construction/Infrastructure project report, Survey and disaster mitigation</li>
               <li>Accumulatively, for the long term costs UAV/Drone team production (operational, maintenance, etc.) more economical</li>
               <li>AMX UAV ready to be your partner for UAV sales, operator training, and maintenance</li>
             </ul>
           </div>
           <div className="usage-box">
-            <h4 style={{ fontSize: '25px', marginBottom: '15px' }}>Utilize AMX UAV Professional Services</h4>
-            <ul>
+            <h4 className="content-subtitle-1">Utilize AMX UAV Professional Services</h4>
+            <ul className="content-list">
               <li>Suitable for objects that don&apos;t need high intensity updates</li>
               <li>Documentation and sites/building modeling</li>
               <li>Profile and area planning, Event documentation, Advertisement</li>
