@@ -2413,7 +2413,7 @@ html, body, .homepage-body {
 
   .spec-item h4 {
     display: table-cell !important;
-    border: 3px solid #CCCCCC !important;
+    border: 3px solid #F5F5F5 !important;
     padding: 8px 12px !important;
     background-color: #F5F5F5 !important;
     width: 35% !important;
@@ -2426,7 +2426,7 @@ html, body, .homepage-body {
   .spec-item ul,
   .spec-item p {
     display: table-cell !important;
-    border: 3px solid #CCCCCC !important;
+    border: 3px solid #F5F5F5 !important;
     padding: 8px 12px !important;
     vertical-align: middle !important;
     font-size: 14px !important;
