@@ -51,8 +51,7 @@ export default function HowItWorksPage() {
               </div>
               <div style={{ padding: '25px', backgroundColor: 'rgba(255, 255, 255, 0.02)', borderTop: '1px solid rgba(255, 255, 255, 0.05)', minHeight: '180px' }}>
                 <h3 style={{ color: '#DADEDF', margin: '0 0 10px 0', fontSize: '18px', textTransform: 'uppercase' }}>Automatic Mode</h3>
-                <p style={{ color: '#cccccc', fontSize: '14px', lineHeight: '1.5', margin: 0, textAlign: 'justify' }}>Drone controlled by onboard flight controller & sensors. The mission data was entered by operator, then drone can fly autonomously.</p>
-                <p style={{ color: '#cccccc', fontSize: '14px', lineHeight: '1.5', margin: '10px 0 0 0', textAlign: 'justify' }}>While flying, operator can monitor and change the mission parameter through GCS. In emergency condition, operator can take over the drone control (manual/assisted mode).</p>
+                <p style={{ color: '#cccccc', fontSize: '14px', lineHeight: '1.5', margin: 0, textAlign: 'justify' }}>Drone controlled by onboard flight controller & sensors. The mission data was entered by operator, then drone can fly autonomously. While flying, operator can monitor and change the mission parameter through GCS. In emergency condition, operator can take over the drone control (manual/assisted mode).</p>
               </div>
             </div>
           </div>
