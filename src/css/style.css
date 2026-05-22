@@ -2688,13 +2688,13 @@ html, body, .homepage-body {
     margin: 10px 0 5px 0 !important;
     width: 100% !important;
     text-align: center !important;
+    margin-bottom: 10px !important;
   }
   .grid-col-left p,
   .grid-col-right p {
     font-size: 10px !important;
     margin: 0 !important;
     width: 100% !important;
-    /* text-align: center !important; */
   }
 
   /* ABOUT US - BUSINESS SCALE OVERVIEW */
