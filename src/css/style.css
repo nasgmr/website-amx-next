@@ -2471,6 +2471,7 @@ html, body, .homepage-body {
   }
 
   .info-box ul {
+    list-style: disc !important;
     display: table-cell !important;
     border: 3px solid #C4C4C4 !important;
     padding: 8px 12px !important;
