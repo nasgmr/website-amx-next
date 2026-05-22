@@ -2503,6 +2503,7 @@ html, body, .homepage-body {
   .service-desc {
     font-size: 15px !important;
     text-align: justify !important;
+    justify-content: inter-word !important;
     line-height: 1.5;
     margin-top: 10px !important;
   }
