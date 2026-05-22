@@ -1,17 +1,12 @@
 import UseCaseSubNav from '../../../components/UseCaseSubNav';
-
 export const metadata = {
   title: 'Use Case - Agriculture & Forestry | AMX UAV',
   description: 'AMX UAV agriculture and forestry drone use cases',
 };
-
 export default function AgriForestPage() {
   return (
     <main className="use-case-container">
-      {/* Calling Active Use Case Sub Navigation (agri-forest) */}
       <UseCaseSubNav active="agri-forest" />
-
-      {/* Main Content Grid */}
       <div className="case-grid">
         
         {/* Irrigation Modeling */}
@@ -22,13 +17,15 @@ export default function AgriForestPage() {
             style={{ width: '100%', maxWidth: '400px', height: 'auto', display: 'block', margin: '8px auto 30px auto', borderRadius: '8px' }} 
             alt="Irrigation Modeling"
           />
-          <div className="case-stats-grid">
-            <div className="stat-item"><label>Location</label><span>Magelang, Indonesia</span></div>
-            <div className="stat-item"><label>Total Area</label><span>100Ha</span></div>
-            <div className="stat-item"><label>Altitude</label><span>200m</span></div>
-            <div className="stat-item"><label>Drone</label><span>AMX Vertic</span></div>
-            <div className="stat-item"><label>GSD</label><span>6cm/pixel</span></div>
-          </div>
+          <table className="case-stats-table">
+            <tbody>
+              <tr><th>Location</th><td>Magelang, Indonesia</td></tr>
+              <tr><th>Total Area</th><td>100Ha</td></tr>
+              <tr><th>Altitude</th><td>200m</td></tr>
+              <tr><th>Drone</th><td>AMX Vertic</td></tr>
+              <tr><th>GSD</th><td>6cm/pixel</td></tr>
+            </tbody>
+          </table>
         </div>
 
         {/* Forest Crop Estimation */}
@@ -39,13 +36,15 @@ export default function AgriForestPage() {
             style={{ width: '100%', maxWidth: '400px', height: 'auto', display: 'block', margin: '8px auto 30px auto', borderRadius: '8px' }} 
             alt="Forest Crop Estimation"
           />
-          <div className="case-stats-grid">
-            <div className="stat-item"><label>Location</label><span>Java, Indonesia</span></div>
-            <div className="stat-item"><label>Total Area</label><span>200Ha</span></div>
-            <div className="stat-item"><label>Altitude</label><span>300m</span></div>
-            <div className="stat-item"><label>Drone</label><span>AMX Vertic</span></div>
-            <div className="stat-item"><label>GSD</label><span>6cm/pixel</span></div>
-          </div>
+          <table className="case-stats-table">
+            <tbody>
+              <tr><th>Location</th><td>Java, Indonesia</td></tr>
+              <tr><th>Total Area</th><td>200Ha</td></tr>
+              <tr><th>Altitude</th><td>300m</td></tr>
+              <tr><th>Drone</th><td>AMX Vertic</td></tr>
+              <tr><th>GSD</th><td>6cm/pixel</td></tr>
+            </tbody>
+          </table>
         </div>
 
       </div>

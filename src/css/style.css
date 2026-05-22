@@ -2538,84 +2538,64 @@ html, body, .homepage-body {
   }
 
   /* USE CASE PAGE */
-  .use-case-container {
-    padding: 40px 20px;
-  }
-
-  .use-case-label,
-  .category-main-title {
-    font-size: 24px !important;
-    line-height: 1.3;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .use-case-header-section {
-    margin-bottom: 16px;
-  }
-
-  .project-title {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .sub-nav {
-    flex-direction: column;
-    border: 2px solid #dadedf;
-    border-radius: 8px;
-    margin-bottom: 40px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .sub-nav a {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid #dadedf66;
-    padding: 12px;
-    font-size: 13px;
-    box-sizing: border-box;
-  }
-
-  .case-image-placeholder {
-    height: 180px;
-    margin-bottom: 15px;
-  }
-
-  .case-stats-grid {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    gap: 15px 5px !important;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .stat-item {
-    text-align: center !important;
-    padding: 0;
-    flex: 0 0 30% !important;
-    min-width: 80px;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-
-  .stat-item label {
-    font-size: 10px;
-    margin-bottom: 2px;
-    display: block;
-    opacity: 0.8;
-    word-wrap: break-word;
-  }
-
-  .stat-item span {
-    font-size: 11px;
-    display: block;
-    font-weight: bold;
-    word-wrap: break-word;
-  }
+.use-case-container {
+  padding: 40px 20px;
+}
+.use-case-label,
+.category-main-title {
+  font-size: 24px !important;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.use-case-header-section {
+  margin-bottom: 16px;
+}
+.project-title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sub-nav {
+  flex-direction: column;
+  border: 2px solid #dadedf;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.sub-nav a {
+  width: 100%;
+  border-right: none;
+  border-bottom: 1px solid #dadedf66;
+  padding: 12px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.case-image-placeholder {
+  height: 180px;
+  margin-bottom: 15px;
+}
+.case-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.case-stats-table th {
+  text-align: left;
+  padding: 8px 12px;
+  width: 35%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #DADEDF;
+  font-weight: 600;
+}
+.case-stats-table td {
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #cccccc;
+}
 
   /* DRONEPEDIA - HOW IT WORKS + CLASSIFICATION PAGE */
   .pdf-style-grid,
