@@ -43,7 +43,7 @@ export default function VerticAirPage() {
 
             <div className="spec-item full-width">
               <h4 style={{ color: '#000000' }}>Material</h4>
-              <p>Fiber Composites</p>
+              <li>Fiber Composites</li>
             </div>
           </div> 
         </div> 
