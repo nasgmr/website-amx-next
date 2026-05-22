@@ -2456,12 +2456,12 @@ html, body, .homepage-body {
     display: table-cell !important;
     border: 3px solid #C4C4C4 !important;
     padding: 8px 12px !important;
-    background-color: #f5f5f5 !important;
+    background-color: #F5F5F5 !important;
     width: 35% !important;
     vertical-align: middle !important;
     font-size: 16px !important;
     margin: 0 !important;
-    color: #000 !important;
+    color: #000000 !important;
   }
 
   .info-box ul {
@@ -2472,6 +2472,7 @@ html, body, .homepage-body {
     vertical-align: middle !important;
     font-size: 14px !important;
     margin: 0 !important;
+    color: #FFFFFF !important;
   }
 
   /* SERVICES PAGE */
