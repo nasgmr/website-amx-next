@@ -28,12 +28,12 @@ export default function VerticXLPage() {
                 <li>Wingspan: 2400 mm</li>
                 <li>Weight: 7500 gr</li>
               </ul>
-
-              <h4 style={{ color: '#000000', marginTop: '25px' }}>Material</h4>
+            </div>
+            <div className="spec-item">
+              <h4 style={{ color: '#000000' }}>Material</h4>
               <p>Fiber Composites</p>
             </div>
-
-            <div className="spec-item">
+            <div className="spec-item full-width">
               <h4 style={{ color: '#000000' }}>More Details</h4>
               <ul>
                 <li>Payload: 1000 Grams</li>
