@@ -12,7 +12,7 @@ const services = [
   },
   {
     id: 'vr',
-    title: 'AUGMENTED/VIRTUAL REALITY',
+    title: 'AUGMENTED/\nVIRTUAL REALITY',
     img: '/img/services-vr.png',
     desc: "What's special is we can visualize spatial data interactively, using virtual reality (VR). Very useful for tourism promotion, inspection, and monitoring needs.",
   },
