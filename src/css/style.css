@@ -2685,7 +2685,6 @@ html, body, .homepage-body {
   .grid-col-left h3,
   .grid-col-right h3 {
     font-size: 12px !important;
-    /* margin: 10px 0 5px 0 !important; */
     width: 100% !important;
     text-align: center !important;
     margin-bottom: 15px !important;
