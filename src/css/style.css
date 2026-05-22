@@ -2492,7 +2492,8 @@ html, body, .homepage-body {
   .service-card h2,
   .service-card h3,
   .service-title {
-    font-size: 22px !important;
+    font-size: 18px !important;
+    text-align: center !important;
     word-wrap: break-word;
     hyphens: auto;
     line-height: 1.3;
