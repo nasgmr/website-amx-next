@@ -2373,6 +2373,10 @@ html, body, .homepage-body {
     margin-bottom: 30px;
   }
 
+  .product-category {
+    color: #1A1A1A;
+  }
+
   .detail-description {
     width: 100% !important;
     max-width: 100% !important;
