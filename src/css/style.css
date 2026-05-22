@@ -2443,38 +2443,35 @@ html, body, .homepage-body {
   }
 
   .additional-info {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 15px;
-    margin-top: 50px !important;
+    display: table !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
   }
 
   .info-box {
-    text-align: center !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-    padding: 5px 10px !important;
+    display: table-row !important;
   }
 
-  .info-box h3 {
-    text-align: center !important;
-    font-size: 25px !important;
-    margin-top: 0 !important;
-    margin-bottom: 15px !important;
+  .info-box h4 {
+    display: table-cell !important;
+    border: 1px solid #ccc !important;
+    padding: 8px 12px !important;
+    background-color: #f5f5f5 !important;
+    width: 35% !important;
+    vertical-align: middle !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    color: #000 !important;
   }
 
   .info-box ul {
-    list-style-type: none !important;
-    padding: 0 !important;
+    display: table-cell !important;
+    border: 1px solid #ccc !important;
+    padding: 8px 12px !important;
+    padding-left: 28px !important;
+    vertical-align: middle !important;
+    font-size: 14px !important;
     margin: 0 !important;
-    text-align: center !important;
-  }
-
-  .info-box li {
-    text-align: center !important;
-    font-size: 15px !important;
-    margin-bottom: 12px !important;
-    line-height: 1.4 !important;
   }
 
   /* SERVICES PAGE */
