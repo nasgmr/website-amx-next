@@ -2470,8 +2470,7 @@ html, body, .homepage-body {
     color: #000000 !important;
   }
 
-  .info-box ul,
-  .info-box ul li {
+  .info-box ul {
     display: table-cell !important;
     border: 3px solid #C4C4C4 !important;
     padding: 8px 12px !important;
@@ -2481,6 +2480,16 @@ html, body, .homepage-body {
     margin: 0 !important;
     color: #FFFFFF !important;
   }
+
+  .info-box ul li {
+  display: list-item !important;
+  border: none !important;
+  padding: 2px 0 !important;
+  margin: 0 !important;
+  color: #FFFFFF !important;
+  width: auto !important;
+  float: none !important;
+}
 
   /* SERVICES PAGE */
   .services-container {
