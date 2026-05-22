@@ -2426,7 +2426,7 @@ html, body, .homepage-body {
   .spec-item ul,
   .spec-item p {
     display: table-cell !important;
-    border: 1px solid #ccc !important;
+    border: 3px solid #CCCCCC !important;
     padding: 8px 12px !important;
     vertical-align: middle !important;
     font-size: 14px !important;
