@@ -2446,10 +2446,16 @@ html, body, .homepage-body {
     display: table !important;
     width: 100% !important;
     border-collapse: collapse !important;
+    background: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
   }
 
   .info-box {
     display: table-row !important;
+    background: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
   }
 
   .info-box h4 {
@@ -2464,7 +2470,8 @@ html, body, .homepage-body {
     color: #000000 !important;
   }
 
-  .info-box ul {
+  .info-box ul,
+  .info-box ul li {
     display: table-cell !important;
     border: 3px solid #C4C4C4 !important;
     padding: 8px 12px !important;
