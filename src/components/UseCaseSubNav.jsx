@@ -13,10 +13,10 @@ export default function UseCaseSubNav({ active }) {
     <div className="use-case-header-section">
       <h4 className="use-case-label" style={{ fontWeight: 600 }}>USE CASE</h4>
       <nav className="sub-nav">
-        <Link href="/use-case/infrastructure" className={active === 'infrastructure' ? 'active' : ''}>INFRASTRUCTURE</Link>
+        <Link href="/use-case/infrastructure" className={active === 'infrastructure' ? 'active' : ''}>INFRASTRUCTURE MONITORING & PLANNING </Link>
         <Link href="/use-case/agri-forest" className={active === 'agri-forest' ? 'active' : ''}>AGRICULTURE & FORESTRY</Link>
-        <Link href="/use-case/agri-plant" className={active === 'agri-plant' ? 'active' : ''}>PLANTATION</Link>
-        <Link href="/use-case/tourism" className={active === 'tourism' ? 'active' : ''}>TOURISM & REAL ESTATE</Link>
+        <Link href="/use-case/agri-plant" className={active === 'agri-plant' ? 'active' : ''}>AGRICULTURE & PLANTATION</Link>
+        <Link href="/use-case/tourism" className={active === 'tourism' ? 'active' : ''}>TOURISM PROMOTION & MINING INVENTORY</Link>
       </nav>
     </div>
   );
