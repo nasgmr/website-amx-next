@@ -2737,12 +2737,12 @@ html, body, .homepage-body {
     max-width: 100% !important;
     object-fit: contain !important;
   }
-  
+
   .partner-logo-box {
     border-color: #959595 !important;
     box-shadow: 0 4px 10px #dadedf1a !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 120px !important;
+    height: 120px !important;
     box-sizing: border-box !important;
   }
 
