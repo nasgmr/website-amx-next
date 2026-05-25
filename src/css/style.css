@@ -2741,15 +2741,15 @@ html, body, .homepage-body {
   }
 
   .partners-container {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
   }
 
   .partners-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 1.5rem !important;
-    padding: 2rem;
+    padding: 4rem;
     max-width: 700px !important;
     width: 100% !important;
     margin: 0 auto;
