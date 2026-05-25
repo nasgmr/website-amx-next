@@ -2747,8 +2747,9 @@ html, body, .homepage-body {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 1.5rem !important;
     padding: 2rem;
-    width: 800px !important;
-    margin: 0 auto !important;
+    width: 100% !important;
+    margin: 0 auto;
+    box-sizing: border-box !important;
   }
 
   /* ABOUT US -PORTFOLIO PAGE */
