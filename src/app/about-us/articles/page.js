@@ -12,13 +12,13 @@ export default function ArticlesPage() {
         
         {/* Highlight Article */}
         <div className="articles-highlight-col">
-          <h4 className="highlight-title" style={{ fontWeight: 600 }}>HIGHLIGHTS</h4>
           <div className="list-card">
             <div className="list-card-image">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/img/Use Case - Land Use.png" alt="Highlight Article" />
             </div>
             <div className="list-card-content">
+              <h4 className="highlight-title" style={{ fontWeight: 600 }}>HIGHLIGHTS</h4>
               <h3>Title Article 1</h3>
               <div className="article-meta">
                 <span className="meta-item">
