@@ -18,7 +18,7 @@ export default function ArticlesPage() {
               <img src="/img/Use Case - Land Use.png" alt="Highlight Article" />
             </div>
             <div className="list-card-content">
-              <h4 className="highlight-title" style={{ fontWeight: 600 }}>HIGHLIGHTS</h4>
+              <h4 className="highlight-title" style={{ fontWeight: 600 }}>HIGHLIGHT</h4>
               <h3>Title Article 1</h3>
               <div className="article-meta">
                 <span className="meta-item">
