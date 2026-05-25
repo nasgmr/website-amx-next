@@ -2742,6 +2742,14 @@ html, body, .homepage-body {
     box-shadow: 0 4px 10px #dadedf1a !important;
   }
 
+  .partners-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
   /* ABOUT US -PORTFOLIO PAGE */
   .portfolio-container {
     padding: 40px 20px;
