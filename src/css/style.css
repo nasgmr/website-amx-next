@@ -2734,10 +2734,17 @@ html, body, .homepage-body {
   /* ABOUT US - PARTNERS & CLIENTS */
   .partner-logo-box img {
     opacity: 1 !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
   }
   .partner-logo-box {
     border-color: #959595 !important;
     box-shadow: 0 4px 10px #dadedf1a !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
   .partners-container {
     overflow-x: hidden !important;
