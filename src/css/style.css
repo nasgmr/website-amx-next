@@ -2790,6 +2790,10 @@ html, body, .homepage-body {
     margin-bottom: 20px;
   }
 
+  .portfolio-item p {
+    font-size: 14px;
+  }
+
   .timeline-nav {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
