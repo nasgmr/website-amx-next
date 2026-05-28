@@ -1657,6 +1657,16 @@ body {
   margin: 0 0 10px 0;
 }
 
+.articles-highlight-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-highlight-col .list-card {
+  flex: 1;
+  min-height: 100%;
+}
+
 .articles-list-col {
   display: flex;
   flex-direction: column;

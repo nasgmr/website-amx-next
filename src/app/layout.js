@@ -26,9 +26,10 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         
-        <main style={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+        {/* Main/Children flex-grow: 1 pushes footer to bottom */}
+        <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
           {children}
-        </main>
+        </div>
         
         <Footer />
       </body>
