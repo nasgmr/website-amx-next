@@ -1,48 +1,50 @@
 import UseCaseSubNav from '../../../components/UseCaseSubNav';
+
 export const metadata = {
-  title: 'Use Case - Tourism & Mining | AMX UAV',
-  description: 'AMX UAV tourism promotion and mining site inventory use cases',
+  title: 'Use Case - Tourism & Land Use | AMX UAV',
+  description: 'AMX UAV tourism and land use drone use cases',
 };
+
 export default function TourismPage() {
   return (
     <main className="use-case-container">
       <UseCaseSubNav active="tourism" />
       <div className="case-grid">
-
-        {/* Virtual Reality For Tourism Promotion */}
+        
+        {/* Land Use Mapping */}
         <div className="case-item">
-          <h3 className="project-title">Virtual Reality For Tourism Promotion</h3>
+          <h3 className="project-title">Land Use Mapping</h3>
           <img 
-            src="/img/Use Case - Virtual Reality.png" 
+            src="/img/Use Case - Land Use.png" 
             style={{ width: '100%', maxWidth: '400px', height: 'auto', display: 'block', margin: '8px auto 30px auto', borderRadius: '8px' }} 
-            alt="Virtual Reality For Tourism Promotion"
+            alt="Land Use Mapping"
           />
-          <table className="case-stats-table">
+          <table className="case-stats-table case-stats-grid">
             <tbody>
-              <tr><th>Location</th><td>Flores, Indonesia</td></tr>
-              <tr><th>Total Area</th><td>1000Ha</td></tr>
-              <tr><th>Altitude</th><td>200m</td></tr>
-              <tr><th>Drone</th><td>AMX Vertic</td></tr>
-              <tr><th>GSD</th><td>7cm/pixel</td></tr>
+              <tr className="stat-item"><th>Location</th><td>Yogyakarta, Indonesia</td></tr>
+              <tr className="stat-item"><th>Total Area</th><td>150Ha</td></tr>
+              <tr className="stat-item"><th>Altitude</th><td>180m</td></tr>
+              <tr className="stat-item"><th>Drone</th><td>AMX Vertic</td></tr>
+              <tr className="stat-item"><th>GSD</th><td>5cm/pixel</td></tr>
             </tbody>
           </table>
         </div>
 
-        {/* Nickel Mine Site Inventory */}
+        {/* Virtual Reality Tourism */}
         <div className="case-item">
-          <h3 className="project-title">Nickel Mine Site Inventory</h3>
+          <h3 className="project-title">Virtual Reality Tourism</h3>
           <img 
-            src="/img/Use Case - Nickel Mine.png" 
+            src="/img/Use Case - Virtual Reality.png" 
             style={{ width: '100%', maxWidth: '400px', height: 'auto', display: 'block', margin: '8px auto 30px auto', borderRadius: '8px' }} 
-            alt="Nickel Mine Site Inventory"
+            alt="Virtual Reality Tourism"
           />
-          <table className="case-stats-table">
+          <table className="case-stats-table case-stats-grid">
             <tbody>
-              <tr><th>Location</th><td>Kolaka, Indonesia</td></tr>
-              <tr><th>Total Area</th><td>7000Ha</td></tr>
-              <tr><th>Altitude</th><td>250m</td></tr>
-              <tr><th>Drone</th><td>AMX Vertic</td></tr>
-              <tr><th>GSD</th><td>7cm/pixel</td></tr>
+              <tr className="stat-item"><th>Location</th><td>Bali, Indonesia</td></tr>
+              <tr className="stat-item"><th>Total Area</th><td>80Ha</td></tr>
+              <tr className="stat-item"><th>Altitude</th><td>120m</td></tr>
+              <tr className="stat-item"><th>Drone</th><td>AMX Octopter</td></tr>
+              <tr className="stat-item"><th>GSD</th><td>3cm/pixel</td></tr>
             </tbody>
           </table>
         </div>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const [galleryPos, setGalleryPos] = useState(['pos-left', 'pos-center', 'pos-right']);
@@ -23,20 +24,26 @@ export default function Home() {
   };
 
   return (
-    <div className="homepage-body">
-      
+    <div className="homepage-body-content">
       {/* 1. HERO SECTION */}
-      <main className="hero-section">
+      <section className="hero-section">
         <h1 className="glowing-text">DRONE SOLUTION FOR INDUSTRY 5.0</h1>
         <p>AMX UAV offer mapping drone and services for various industry</p>
-        <a href="https://drive.google.com/file/d/1APSnKeG_bUYtVmAfQr0WhkKxK9-ws2O9/view?usp=sharing" target="_blank" className="btn-learn-more" rel="noreferrer">Learn More</a>
+        <a 
+          href="https://drive.google.com/file/d/1APSnKeG_bUYtVmAfQr0WhkKxK9-ws2O9/view?usp=sharing" 
+          target="_blank" 
+          className="btn-learn-more" 
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
         <div className="social-icons">
-          <a href="https://www.instagram.com/amx.uav" target="_blank" className="social-link" rel="noreferrer"><i className="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/amx.uav/" target="_blank" className="social-link" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
-          <a href="https://linkedin.com/company/amxuav" target="_blank" className="social-link" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
-          <a href="https://www.youtube.com/@amxuav2935" target="_blank" className="social-link" rel="noreferrer"><i className="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/amx.uav" target="_blank" className="social-link" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/amx.uav/" target="_blank" className="social-link" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://linkedin.com/company/amxuav" target="_blank" className="social-link" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@amxuav2935" target="_blank" className="social-link" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
         </div>
-      </main>
+      </section>
 
       {/* 2. PRODUCT HIGHLIGHT */}
       <section className="hp-product-highlight">
@@ -74,7 +81,12 @@ export default function Home() {
       {/* 3. VIDEO SECTION */}
       <section className="hp-video-section">
         <div className="hp-video-wrapper">
-          <iframe src="https://www.youtube-nocookie.com/embed/jQkANpci7Aw?rel=0" frameBorder="0" allowFullScreen></iframe>
+          <iframe 
+            src="https://www.youtube-nocookie.com/embed/jQkANpci7Aw?rel=0" 
+            style={{ border: 0 }} 
+            allowFullScreen
+            title="AMX UAV Promotional Video"
+          ></iframe>
         </div>
       </section>
 
@@ -90,8 +102,8 @@ export default function Home() {
               <h3 className="hp-basic-article-title">New to Aerial Surveying?</h3>
               <p className="hp-excerpt">Discover a seamless end-to-end workflow designed to take your operations from the ground to the sky with ease.</p>
             </div>
-            <div className="hp-basic-card-list-img">
-              <img src="/img/AMX-GCS.jpg" alt="" />
+            <div className="hp-basic-card-list-img" style={{ position: 'relative', width: '120px', height: '80px' }}>
+              <Image src="/img/AMX-GCS.jpg" alt="Ground Control Station" fill style={{ objectFit: 'cover' }} />
             </div>
           </Link>
 
@@ -100,8 +112,8 @@ export default function Home() {
               <h3 className="hp-basic-article-title">Already Flying?</h3>
               <p className="hp-excerpt">Elevate your results with Vertic XL. Our flagship eVTOL is engineered for long-range missions and total data confidence.</p>
             </div>
-            <div className="hp-basic-card-list-img">
-              <img src="/img/AMX-GCS.jpg" alt="" />
+            <div className="hp-basic-card-list-img" style={{ position: 'relative', width: '120px', height: '80px' }}>
+              <Image src="/img/AMX-GCS.jpg" alt="Vertic XL Mission Planning" fill style={{ objectFit: 'cover' }} />
             </div>
           </Link>
         </div>
@@ -118,8 +130,8 @@ export default function Home() {
                 <p className="hp-excerpt">Brief information of the article content that makes users interested in reading more.</p>
                 <Link href={`/about-us/articles/article-${i}`} className="hp-btn-read">Read More</Link>
               </div>
-              <div className="hp-card-list-img">
-                <img src="/img/AMX-GCS.jpg" alt="" />
+              <div className="hp-card-list-img" style={{ position: 'relative', width: '120px', height: '80px' }}>
+                <Image src="/img/AMX-GCS.jpg" alt={`Article ${i} visual representation`} fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           ))}
@@ -134,24 +146,27 @@ export default function Home() {
       <section className="hp-gallery-section">
         <h1 className="hp-section-title">OUR GALLERY</h1>
         <div className="hp-gallery-container">
-          <div className="hp-arrow" onClick={prevSlide} id="prevBtn"><i className="fas fa-caret-left"></i></div>
+          <button type="button" className="hp-arrow" onClick={prevSlide} id="prevBtn" aria-label="Previous Slide">
+            <i className="fas fa-caret-left"></i>
+          </button>
           
           <div className="hp-gallery-track">
             <div className={`hp-frame hp-slider-node ${galleryPos[0]}`}>
-              <img src="/img/Use Case - Land Use.png" alt="Land Use" />
+              <Image src="/img/Use Case - Land Use.png" alt="Land Use Mapping" width={400} height={250} style={{ objectFit: 'contain' }} />
             </div>
             <div className={`hp-frame hp-slider-node ${galleryPos[1]}`}>
-              <img src="/img/Use Case - Soil Moisture.png" alt="Soil Moisture" />
+              <Image src="/img/Use Case - Soil Moisture.png" alt="Soil Moisture Analysis" width={400} height={250} style={{ objectFit: 'contain' }} />
             </div>
             <div className={`hp-frame hp-slider-node ${galleryPos[2]}`}>
-              <img src="/img/Use Case - Irrigation Modelling.png" alt="Irrigation" />
+              <Image src="/img/Use Case - Irrigation Modelling.png" alt="Irrigation Modelling Data" width={400} height={250} style={{ objectFit: 'contain' }} />
             </div>
           </div>
 
-          <div className="hp-arrow" onClick={nextSlide} id="nextBtn"><i className="fas fa-caret-right"></i></div>
+          <button type="button" className="hp-arrow" onClick={nextSlide} id="nextBtn" aria-label="Next Slide">
+            <i className="fas fa-caret-right"></i>
+          </button>
         </div>
       </section>
-
     </div>
   );
 }

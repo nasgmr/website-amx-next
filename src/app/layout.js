@@ -16,19 +16,18 @@ export default function RootLayout({ children }) {
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+          precedence="default"
         />
       </head>
       <body 
-        className="homepage-body" 
         style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}
         suppressHydrationWarning={true}
       >
         <Navbar />
         
-        {/* Main/Children flex-grow: 1 mendorong footer ke bawah */}
-        <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+        <main style={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
           {children}
-        </div>
+        </main>
         
         <Footer />
       </body>
