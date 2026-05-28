@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body 
+        className="homepage-body"
         style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}
         suppressHydrationWarning={true}
       >
