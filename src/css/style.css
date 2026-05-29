@@ -55,7 +55,7 @@ body {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 5px;
+  gap: 0px;
 }
 
 .nav-links li {
