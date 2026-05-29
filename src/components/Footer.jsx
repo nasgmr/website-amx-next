@@ -6,7 +6,6 @@ export default function Footer() {
         <p className="powered-text">Wirosaban Barat No.208 Yogyakarta, Indonesia</p>
       </div>
       <div className="footer-right">
-        <p>Wirosaban Barat No.208 Yogyakarta, Indonesia</p>
         <p>+62 811292565</p>
         <p>admin@amx-uav.com</p>
       </div>
