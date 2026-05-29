@@ -95,6 +95,8 @@ body {
   min-width: 280px;
   top: 100%;
   left: 0;
+  margin-top: 0;
+  border-top: none;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   box-shadow: 0px 8px 16px #00000080;
