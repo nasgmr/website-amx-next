@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 50px;
+  padding: 3px 40px;
   position: fixed !important;
   top: 0;
   left: 0;
@@ -83,7 +83,7 @@ body {
   padding-top: 15px;
   padding-left: 20px;
   padding-bottom: 8px;
-  height: 85px;
+  height: 75px;
   width: auto;
 }
 
