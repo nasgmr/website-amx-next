@@ -64,11 +64,11 @@ body {
 
 .nav-links a,
 .dropbtn {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 500;
   color: #FFFFFF;
   text-decoration: none;
-  padding: 12px 28px;
+  padding: 8px 24px;
   display: block;
   transition: background-color 0.3s;
   border-radius: 5px;
@@ -107,7 +107,7 @@ body {
 .dropdown-content a {
   color: #000000;
   padding: 10px 15px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   margin: 4px;
   border-radius: 4px;
