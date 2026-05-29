@@ -36,7 +36,7 @@ body {
 /* NAVIGATION BAR */
 .navbar {
   background-color: #000000;
-  bordercolor: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
