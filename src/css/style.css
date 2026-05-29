@@ -114,7 +114,8 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #FFFFFF;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .dropdown-content .mobile-only-menu {
