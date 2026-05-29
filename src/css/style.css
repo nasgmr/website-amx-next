@@ -75,8 +75,8 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: #8A8A8A;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .navbar img {
@@ -90,7 +90,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #8A8A8A;
+  background-color: #000000;
   min-width: 280px;
   top: 100%;
   left: 0;
@@ -122,8 +122,8 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #8A8A8A;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -131,8 +131,8 @@ body {
 .btn-sales {
   font-size: 18px;
   font-weight: bold;
-  background-color: #959595;
-  color: #F2F3F4;
+  background-color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   padding: 6px 18px;
   border-radius: 6px;
@@ -143,8 +143,8 @@ body {
 }
 
 .btn-sales:hover {
-  background-color: #DADEDF;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
   transform: scale(1.05);
 }
 
