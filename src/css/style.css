@@ -122,8 +122,8 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
