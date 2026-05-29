@@ -75,8 +75,8 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .navbar img {
@@ -143,7 +143,7 @@ body {
 }
 
 .btn-sales:hover {
-  background-color: #000000;
+  background-color: #202020;
   color: #FFFFFF;
   transform: scale(1.05);
 }
