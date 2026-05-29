@@ -83,7 +83,7 @@ body {
   padding-top: 15px;
   padding-left: 20px;
   padding-bottom: 8px;
-  height: 65px;
+  height: 75px;
   width: auto;
 }
 
@@ -129,12 +129,12 @@ body {
 }
 
 .btn-sales {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   background-color: #959595;
   color: #F2F3F4;
   text-decoration: none;
-  padding: 8px 20px;
+  padding: 6px 18px;
   border-radius: 6px;
   transition:
     background-color 0.3s,
