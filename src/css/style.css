@@ -90,7 +90,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000000;
+  background-color: #FFFFFF;
   min-width: 280px;
   top: 100%;
   left: 0;
@@ -105,7 +105,7 @@ body {
 }
 
 .dropdown-content a {
-  color: #FFFFFF;
+  color: #000000;
   padding: 10px 15px;
   font-size: 17px;
   font-weight: 500;
