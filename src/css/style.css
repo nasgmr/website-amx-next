@@ -238,6 +238,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   gap: 2px;
+  width: 200px;
 }
 
 .footer-left p,
@@ -252,6 +253,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 200px;
 }
 
 /* SOCIAL MEDIA */
