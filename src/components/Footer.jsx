@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <p className="copyright-text">Copyright &copy; 2026 AMX UAV</p>
+        <p className="copyright-text" font-size="12px">Copyright &copy; 2026 AMX UAV</p>
         <p className="powered-text">Powered by AMX UAV</p>
       </div>
 
