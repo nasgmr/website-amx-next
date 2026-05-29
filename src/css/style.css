@@ -66,10 +66,11 @@ body {
 .dropbtn {
   font-size: 17px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   padding: 8px 24px;
   display: block;
+  background-color: #FFFFFF;
   transition: background-color 0.3s;
   border-radius: 5px;
 }
@@ -91,6 +92,7 @@ body {
   display: none;
   position: absolute;
   background-color: #000000;
+  color: #FFFFFF;
   min-width: 280px;
   top: 100%;
   left: 0;
@@ -105,7 +107,7 @@ body {
 }
 
 .dropdown-content a {
-  color: #000000;
+  color: #FFFFFF;
   padding: 10px 15px;
   font-size: 17px;
   font-weight: 500;
@@ -114,7 +116,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #D1D1D1;
+  background-color: #FFFFFF;
 }
 
 .dropdown-content .mobile-only-menu {
