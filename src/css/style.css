@@ -61,6 +61,8 @@ body {
 
 .nav-links li {
   position: relative;
+  display: flex;
+  align-items: stretch;
 }
 
 .nav-links a,
