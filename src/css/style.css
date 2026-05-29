@@ -70,7 +70,6 @@ body {
   text-decoration: none;
   padding: 8px 24px;
   display: block;
-  background-color: #FFFFFF;
   transition: background-color 0.3s;
   border-radius: 5px;
 }
@@ -92,7 +91,6 @@ body {
   display: none;
   position: absolute;
   background-color: #000000;
-  color: #FFFFFF;
   min-width: 280px;
   top: 100%;
   left: 0;
