@@ -132,8 +132,7 @@ body {
 .btn-sales {
   font-size: 18px;
   font-weight: bold;
-  background-color: #FFFFFF;
-  color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
   padding: 6px 18px;
   border-radius: 6px;
@@ -144,8 +143,8 @@ body {
 }
 
 .btn-sales:hover {
-  background-color: #202020;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
   transform: scale(1.05);
 }
 
