@@ -1,51 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Encode+Sans+Semi+Condensed:wght@600&family=Orbitron:wght@700&family=Overpass:wght@300;400;500&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300;400;500&family=Readex+Pro:wght@500&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&display=swap');
 
 body {
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Akatab', sans-serif;
 }
 
 /* Typography */
 h1 {
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Akatab', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Akatab', sans-serif;
   font-size: 45px;
   font-weight: 600;
 }
 
-h2 {
-  font-family: 'Calibri', sans-serif;
-  font-size: 45px;
-  font-weight: 500;
-}
-
 h3 {
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Akatab', sans-serif;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h4 {
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Akatab', sans-serif;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .copyright-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Akatab', sans-serif;
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
 }
 
 .powered-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Akatab', sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5px;
   margin: 0;
 }
 
 .contact-item {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Akatab', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -55,7 +55,7 @@ h4 {
 .dropdown-content a,
 .btn-learn-more,
 .btn-sales {
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Akatab', sans-serif;
 }
 
 .btn-learn-more,
@@ -65,7 +65,7 @@ h4 {
 .hp-btn-read,
 .btn-see-more-gray,
 .hp-btn-see-more {
-  font-family: 'Calibri', sans-serif !important;
+  font-family: 'Akatab', sans-serif !important;
   font-size: 18px !important;
   font-weight: 500;
   text-transform: uppercase;
