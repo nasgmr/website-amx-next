@@ -92,11 +92,11 @@ body {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #FFFFFF;
   min-width: 280px;
-  top: 100%;
-  left: 0;
+  top: 84px;
+  left: auto;
   margin-top: 0;
   border-top: none;
   border-bottom-left-radius: 8px;
