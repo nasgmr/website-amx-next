@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 40px;
+  padding: 3px 30px;
   position: fixed !important;
   top: 0;
   left: 0;
@@ -83,7 +83,7 @@ body {
   padding-top: 15px;
   padding-left: 20px;
   padding-bottom: 8px;
-  height: 75px;
+  height: 65px;
   width: auto;
 }
 
@@ -134,7 +134,7 @@ body {
   background-color: #959595;
   color: #F2F3F4;
   text-decoration: none;
-  padding: 10px 24px;
+  padding: 8px 20px;
   border-radius: 6px;
   transition:
     background-color 0.3s,
