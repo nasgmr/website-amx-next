@@ -64,14 +64,14 @@ body {
 
 .nav-links a,
 .dropbtn {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 500;
   color: #FFFFFF;
   text-decoration: none;
   padding: 12px 28px;
   display: block;
   transition: background-color 0.3s;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .nav-links a:hover {
