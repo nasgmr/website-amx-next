@@ -97,7 +97,7 @@ body {
   background-color: #FFFFFF;
   min-width: 280px;
   top: 84px;
-  left: 0;
+  left: auto;
   margin-top: 0;
   border-top: none;
   border-bottom-left-radius: 8px;
