@@ -1039,8 +1039,6 @@ body {
 .sub-nav a:hover {
   background-color: #FFFFFF;
   color: #000000;
-  border-right-color: #000000;
-  box-shadow: inset 1px 0 0 #000000;
 }
 
 .category-main-title {
