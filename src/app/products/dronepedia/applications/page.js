@@ -23,7 +23,7 @@ export default function ApplicationsPage() {
 
           <div className="app-card">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/land mapped.png" style={{ width: '100%', height: '220px', objectFit: 'contain', objectPosition: 'center' }} alt="land mapping" className="app-img-box" />
+            <img src="/img/land mapped.png" style={{ width: '100%', height: '180px', objectFit: 'contain', objectPosition: 'center' }} alt="land mapping" className="app-img-box" />
             <div className="app-title-box">
               <h3>Land Mapping</h3>
             </div>
