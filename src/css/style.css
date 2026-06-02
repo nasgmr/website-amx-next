@@ -1338,12 +1338,12 @@ body {
 }
 
 .app-card {
-  background-color: #000000;
+  background-color: #FFFFFF;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #000000;
   transition:
     transform 0.3s ease,
     border-color 0.3s ease;
@@ -1377,7 +1377,7 @@ body {
 }
 
 .app-title-box h3 {
-  color: #DADEDF;
+  color: #000000;
   font-size: 16px;
   font-weight: 600;
   margin: 0;
