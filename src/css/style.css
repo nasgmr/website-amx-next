@@ -1187,8 +1187,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 220px;
   box-sizing: border-box;
+}
+
+.grid-col-left .mode-img-box {
+  min-height: 220px;
 }
 
 .auto-img-box {
@@ -1197,9 +1200,12 @@ body {
 
 .mode-img-box img {
   width: 100%;
-  height: 180px;
   object-fit: contain;
   display: block;
+}
+
+.grid-col-left .mode-img-box img {
+  height: 180px;
 }
 
 .mode-img-box img.large-img {
@@ -1216,6 +1222,7 @@ body {
 
 .auto-info {
   min-height: 180px;
+  flex-grow: 0;
 }
 
 .mode-info h3 {
