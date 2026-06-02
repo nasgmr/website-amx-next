@@ -805,13 +805,15 @@ body {
 .content-subtitle-1, .content-subtitle-2 {
   font-size: 28px;
   text-align: center;
+  margin-top: 15px;
   margin-bottom: 15px;
   color: #FFFFFF;
 }
 
 .content-list {
   display: inline-block;
-  text-align: center;
+  text-align: justify;
+  margin-top: 15px;
   margin-bottom: 30px;
   padding-left: 20px;
 }
