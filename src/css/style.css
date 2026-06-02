@@ -858,7 +858,7 @@ body {
 /* SERVICES PAGE */
 .services-container {
   padding: 50px 14vw;
-  color: #000000;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   gap: 45px;
@@ -866,7 +866,8 @@ body {
 }
 
 .service-block {
-  background-color: #FFFFFF;
+  background-color: none;
+  border: 1px solid #FFFFFF;
   padding: 28.5px;
   border-radius: 12px;
   transition:
@@ -876,6 +877,8 @@ body {
 
 .service-block:hover {
   transform: translateX(10px);
+  background-color: #FFFFFF;
+  color: #000000;
   box-shadow: -5px 5px 20px #FFFFFF;
 }
 
