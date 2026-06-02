@@ -23,7 +23,7 @@ export default function VerticAirPage() {
           
           <div className="specs-grid">
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Dimension</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Dimension</h4>
               <ul>
                 <li>Wingspan: 1400 mm</li>
                 <li>Length: 470 mm</li>
@@ -33,7 +33,7 @@ export default function VerticAirPage() {
             </div>
             
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Battery</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Battery</h4>
               <ul>
                 <li>LIPO: 88WH</li>
                 <li>Weight: 470 gr</li>
@@ -42,7 +42,7 @@ export default function VerticAirPage() {
             </div>
 
             <div className="spec-item full-width">
-              <h4 style={{ color: '#000000' }}>Material</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Material</h4>
               <ul>
                 <li>Fiber Composites</li>
               </ul>
@@ -53,7 +53,7 @@ export default function VerticAirPage() {
 
       <section className="additional-info">
         <div className="info-box">
-          <h4 style={{ color: '#000000' }}>Payloads</h4>
+          <h4 style={{ color: '#FFFFFF' }}>Payloads</h4>
           <ul>
             <li>C1: 24MP, APS-C Sensor, 20mm Wide Lens, PPK Ready</li>
             <li>MicaSense RedEdge-P: 5.1MP Panchromatic, 5 Band</li>
@@ -63,7 +63,7 @@ export default function VerticAirPage() {
         </div>
 
         <div className="info-box">
-          <h4 style={{ color: '#000000' }}>Applications & Training</h4>
+          <h4 style={{ color: '#FFFFFF' }}>Applications & Training</h4>
           <ul>
             <li>Precision Agriculture & Asset Monitoring</li>
             <li>Military Surveillance</li>

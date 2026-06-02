@@ -23,7 +23,7 @@ export default function QubitPage() {
 
           <div className="specs-grid">
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Dimension</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Dimension</h4>
               <ul>
                 <li>Wingspan: 1400 mm</li>
                 <li>Length: 470 mm</li>
@@ -32,7 +32,7 @@ export default function QubitPage() {
               </ul>
             </div>
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Battery</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Battery</h4>
               <ul>
                 <li>LIPO: 88WH</li>
                 <li>Weight: 470 gr</li>
@@ -40,15 +40,15 @@ export default function QubitPage() {
               </ul>
             </div>
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Material</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Material</h4>
               <p>Fiber Composites</p>
             </div>
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Controller</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Controller</h4>
               <p>High Precision Autopilot</p>
             </div>
             <div className="spec-item full-width">
-              <h4 style={{ color: '#000000' }}>Propulsion</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Propulsion</h4>
               <p>Brushless Motor & Carbon Propeller</p>
             </div>
           </div>

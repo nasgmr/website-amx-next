@@ -23,18 +23,18 @@ export default function VerticXLPage() {
 
           <div className="specs-grid">
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Dimension</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Dimension</h4>
               <ul>
                 <li>Wingspan: 2400 mm</li>
                 <li>Weight: 7500 gr</li>
               </ul>
             </div>
             <div className="spec-item">
-              <h4 style={{ color: '#000000' }}>Material</h4>
+              <h4 style={{ color: '#FFFFFF' }}>Material</h4>
               <p>Fiber Composites</p>
             </div>
             <div className="spec-item full-width">
-              <h4 style={{ color: '#000000' }}>More Details</h4>
+              <h4 style={{ color: '#FFFFFF' }}>More Details</h4>
               <ul>
                 <li>Payload: 1000 Grams</li>
                 <li>Flight Time: 70 Minutes</li>
@@ -49,7 +49,7 @@ export default function VerticXLPage() {
 
       <section className="additional-info">
         <div className="info-box">
-          <h4 style={{ color: '#000000' }}>Mapping Payloads</h4>
+          <h4 style={{ color: '#FFFFFF' }}>Mapping Payloads</h4>
           <ul>
             <li>Map 24 RGB Camera</li>
             <li>RedEdge-P Multispectral Camera</li>
@@ -60,7 +60,7 @@ export default function VerticXLPage() {
         </div>
 
         <div className="info-box">
-          <h4 style={{ color: '#000000' }}>Surveillance Payloads</h4>
+          <h4 style={{ color: '#FFFFFF' }}>Surveillance Payloads</h4>
           <ul>
             <li>M3-D Surveillance Camera</li>
             <li>IR Surveillance Camera</li>
