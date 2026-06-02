@@ -825,17 +825,16 @@ body {
 
 .usage-box {
   flex: 1;
-  background-color: #1A1A1A;
   padding: 25px;
   border-radius: 12px;
-  border: 1px solid #333333;
+  border: 1px solid #FFFFFF;
 }
 
 .usage-box h3 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #FFFFFF;
-  border-bottom: 2px solid #959595;
+  border-bottom: 2px solid #FFFFFF;
   padding-bottom: 20px;
 }
 
