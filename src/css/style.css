@@ -1169,7 +1169,7 @@ body {
 }
 
 .mode-card {
-  background-color: none;
+  background-color: #000000;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   display: flex;
