@@ -813,7 +813,8 @@ body {
 .content-list {
   display: inline-block;
   text-align: justify;
-  margin-top: 15px;
+  padding: 0 20px;
+  margin-top: 20px;
   margin-bottom: 30px;
   padding-left: 20px;
 }
