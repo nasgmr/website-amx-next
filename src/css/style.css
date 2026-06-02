@@ -415,6 +415,7 @@ body {
 }
 
 .hp-btn-see-more {
+  display: inline-block;
   border: 2.5px solid #FFFFFF;
   color: #FFFFFF;
   padding: 12px 40px;
@@ -575,6 +576,7 @@ body {
 }
 
 .hp-btn-read {
+  display: inline-block;
   border: 2.5px solid #000000;
   color: #000000;
   padding: 8px 20px;
