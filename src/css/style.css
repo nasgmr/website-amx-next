@@ -815,7 +815,6 @@ body {
 }
 
 .content-list li {
-  display: inline-block;
   margin-bottom: 10px;
   line-height: 1.5;
 }
