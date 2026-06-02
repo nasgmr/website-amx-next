@@ -1469,8 +1469,8 @@ body {
 }
 
 .stat-box {
-  background-color: #FFFFFF0D;
-  border: 1px solid #FFFFFF1A;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
   padding: 40px 20px;
   text-align: center;
   border-radius: 8px;
@@ -1481,17 +1481,17 @@ body {
 
 .stat-box:hover {
   transform: translateY(-5px);
-  border-color: #DADEDF;
+  border-color: #FFFFFF;
 }
 
 .stat-box h2 {
-  color: #DADEDF;
+  color: #FFFFFF;
   font-size: 48px;
   margin: 0 0 10px 0;
 }
 
 .stat-box p {
-  color: #CCCCCC;
+  color: #FFFFFF;
   font-size: 16px;
   margin: 0;
   text-transform: uppercase;
@@ -1499,7 +1499,7 @@ body {
 }
 
 .highlight-box {
-  border-bottom: 4px solid #FFC000;
+  border-bottom: 4px solid #FFFFFF;
 }
 
 /* ABOUT US - PARTNERS & CLIENTS PAGE */
