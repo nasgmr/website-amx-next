@@ -11,50 +11,50 @@ export default function HowItWorksPage() {
       <DronepediaSubNav active="how-it-works" />
 
       <div className="dronepedia-content">
-        <div 
-          className="pdf-style-grid" 
-          style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', maxWidth: '1100px', margin: '0 auto', alignItems: 'stretch' }}
-        >
+        <div className="pdf-style-grid">
+          
           {/* Left Column */}
-          <div className="grid-col-left" style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+          <div className="grid-col-left">
             {/* Manual Mode */}
-            <div style={{ borderRadius: '8px', display: 'flex', flexDirection: 'column', overflow: 'hidden', height: '100%' }}>
-              <div style={{ padding: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '220px' }}>
+            <div className="mode-card">
+              <div className="mode-img-box">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/img/manual mode.png" style={{ width: '100%', height: '180px', objectFit: 'contain' }} alt="Manual Mode" />
+                <img src="/img/manual mode.png" alt="Manual Mode" />
               </div>
-              <div style={{ padding: '25px', borderTop: '1px solid rgba(255, 255, 255, 0.05)', flexGrow: 1 }}>
-                <h3 style={{ margin: '0 0 10px 0', fontSize: '18px', textTransform: 'uppercase' }}>Manual Mode</h3>
-                <p style={{ fontSize: '14px', lineHeight: '1.5', margin: 0, textAlign: 'justify' }}>Pilot/Operator directly control the aircraft through radio controller without sensors and flight controller assistant.</p>
+              <div className="mode-info">
+                <h3>Manual Mode</h3>
+                <p>Pilot/Operator directly control the aircraft through radio controller without sensors and flight controller assistant.</p>
               </div>
             </div>
 
             {/* Assisted Mode */}
-            <div style={{ borderRadius: '8px', display: 'flex', flexDirection: 'column', overflow: 'hidden', height: '100%' }}>
-              <div style={{ padding: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '220px' }}>
+            <div className="mode-card">
+              <div className="mode-img-box">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/img/assisted mode.png" style={{ width: '100%', height: '180px', objectFit: 'contain' }} alt="Assisted Mode" />
+                <img src="/img/assisted mode.png" alt="Assisted Mode" />
               </div>
-              <div style={{ padding: '25px', flexGrow: 1 }}>
-                <h3 style={{ margin: '0 0 10px 0', fontSize: '18px', textTransform: 'uppercase' }}>Assisted Mode</h3>
-                <p style={{ fontSize: '14px', lineHeight: '1.5', margin: 0, textAlign: 'justify' }}>Pilot/Operator directly control the aircraft through radio controller with sensors and flight controller assistant for flight stabilization.</p>
+              <div className="mode-info">
+                <h3>Assisted Mode</h3>
+                <p>Pilot/Operator directly control the aircraft through radio controller with sensors and flight controller assistant for flight stabilization.</p>
               </div>
             </div>
           </div>
 
           {/* Right Column */}
-          <div className="grid-col-right" style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
-            <div style={{ borderRadius: '8px', height: '100%', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-              <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px' }}>
+          <div className="grid-col-right">
+            {/* Automatic Mode */}
+            <div className="mode-card auto-card">
+              <div className="mode-img-box auto-img-box">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/img/automatic mode.png" style={{ width: '100%', maxHeight: '380px', objectFit: 'contain' }} alt="Automatic Mode" />
+                <img src="/img/automatic mode.png" alt="Automatic Mode" className="large-img" />
               </div>
-              <div style={{ padding: '25px', minHeight: '180px' }}>
-                <h3 style={{ margin: '0 0 10px 0', fontSize: '18px', textTransform: 'uppercase' }}>Automatic Mode</h3>
-                <p style={{ fontSize: '14px', lineHeight: '1.5', margin: 0, textAlign: 'justify' }}>Drone controlled by onboard flight controller & sensors. The mission data was entered by operator, then drone can fly autonomously. While flying, operator can monitor and change the mission parameter through GCS. In emergency condition, operator can take over the drone control (manual/assisted mode).</p>
+              <div className="mode-info auto-info">
+                <h3>Automatic Mode</h3>
+                <p>Drone controlled by onboard flight controller & sensors. The mission data was entered by operator, then drone can fly autonomously. While flying, operator can monitor and change the mission parameter through GCS. In emergency condition, operator can take over the drone control (manual/assisted mode).</p>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </main>
