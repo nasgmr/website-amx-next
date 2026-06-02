@@ -866,20 +866,21 @@ body {
 }
 
 .service-block {
-  background-color: none;
+  background-color: transparent;
   border: 1px solid #FFFFFF;
   padding: 28.5px;
   border-radius: 12px;
   transition:
     transform 0.3s ease,
-    box-shadow 0.3s ease;
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .service-block:hover {
   transform: translateX(10px);
   background-color: #FFFFFF;
   color: #000000;
-  font-color: #000000;
   box-shadow: -5px 5px 20px #FFFFFF;
 }
 
@@ -893,6 +894,11 @@ body {
   font-size: 18px;
   line-height: 1.8;
   color: #FFFFFF;
+  transition: color 0.3s ease;
+}
+
+.service-block:hover p {
+  color: #000000;
 }
 
 .service-wrapper {
