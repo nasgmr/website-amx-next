@@ -803,7 +803,8 @@ body {
 }
 
 .content-subtitle-1, .content-subtitle-2 {
-  font-size: 25px;
+  font-size: 30px;
+  text-align: center;
   margin-bottom: 15px;
   color: #FFFFFF;
 }
