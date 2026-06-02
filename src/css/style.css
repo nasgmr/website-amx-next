@@ -1352,7 +1352,7 @@ body {
 .app-card:hover {
   transform: translateY(-8px);
   border-color: #FFFFFF;
-  box-shadow: 0 10px 30px #FFFFFF;
+  box-shadow: 0 25px 10px #FFFFFF;
 }
 
 .app-img-box {
