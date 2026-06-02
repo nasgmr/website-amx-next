@@ -1219,14 +1219,14 @@ body {
 }
 
 .mode-info h3 {
-  color: #DADEDF;
+  color: #000000;
   margin: 0 0 10px 0;
   font-size: 18px;
   text-transform: uppercase;
 }
 
 .mode-info p {
-  color: #CCCCCC;
+  color: #000000;
   font-size: 14px;
   line-height: 1.5;
   margin: 0;
