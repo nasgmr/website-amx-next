@@ -210,7 +210,7 @@ body {
 
 .btn-learn-more:hover {
   background-color: #FFFFFF;
-  color: #4C4C4C;
+  color: #FFFFFF;
 }
 
 /* FOOTER */
@@ -315,20 +315,18 @@ body {
 
 /* SEE MORE BUTTON */
 .btn-see-more-gray {
-  background-color: #FFFFFF;
+  border: 2.5px solid #FFFFFF;
   color: #FFFFFF;
   padding: 12px 40px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  display: inline-block;
-  transition: all 0.3s ease;
-  border: none;
-  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 .btn-see-more-gray:hover {
-  transform: scale(1.05);
   background-color: #FFFFFF;
   color: #000000;
 }
@@ -416,22 +414,21 @@ body {
 }
 
 .hp-btn-see-more {
-  background: #FFFFFF;
+  border: 2.5px solid #FFFFFF;
   color: #FFFFFF;
   padding: 12px 40px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  display: inline-block;
-  transition: all 0.3s ease;
-  border: none;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
   margin-top: 35px;
 }
 
 .hp-btn-see-more:hover {
-  transform: scale(1.05);
   background-color: #FFFFFF;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 /* YOUTUBE */
@@ -547,7 +544,7 @@ body {
 
 .hp-card-list {
   display: flex;
-  background: linear-gradient(90deg, #959595 0%, #959595 55%, #FFFFFF 100%);
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 55%, #FFFFFF 100%);
   border-radius: 15px;
   overflow: hidden;
   min-height: 200px;
@@ -577,12 +574,14 @@ body {
 }
 
 .hp-btn-read {
-  background-color: #000000;
-  color: #959595;
+  border: 2.5px solid #FFFFFF;
+  color: #FFFFFF;
   padding: 8px 20px;
   text-decoration: none;
   border-radius: 4px;
-  display: inline-block;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
   margin-top: 15px;
 }
 
