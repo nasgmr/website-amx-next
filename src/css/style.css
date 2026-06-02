@@ -866,10 +866,9 @@ body {
 }
 
 .service-block {
-  background-color: #1A1A1ACC;
+  background-color: #FFFFFF;
   padding: 28.5px;
   border-radius: 12px;
-  border-left: 4px solid #959595;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -877,7 +876,7 @@ body {
 
 .service-block:hover {
   transform: translateX(10px);
-  box-shadow: -5px 5px 20px #DADEDF;
+  box-shadow: -5px 5px 20px #FFFFFF;
 }
 
 .service-title {
@@ -889,7 +888,7 @@ body {
 .service-block p {
   font-size: 18px;
   line-height: 1.8;
-  color: #CCCCCC;
+  color: #000000;
 }
 
 .service-wrapper {
