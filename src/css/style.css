@@ -1168,8 +1168,8 @@ body {
 }
 
 .mode-card {
-  background-color: #FFFFFF08;
-  border: 1px solid #FFFFFF1A;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
   text-align: left;
   display: flex;
@@ -1190,7 +1190,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #FFFFFF03;
 }
 
 .auto-img-box {
@@ -1211,14 +1210,14 @@ body {
 }
 
 .mode-info h3 {
-  color: #DADEDF;
+  color: #000000;
   margin: 0 0 10px 0;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .mode-info p {
-  color: #CCCCCC;
+  color: #000000;
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
