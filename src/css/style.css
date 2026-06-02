@@ -1338,12 +1338,12 @@ body {
 }
 
 .app-card {
-  background-color: #383838;
+  background-color: #000000;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border: 1px solid #FFFFFF1A;
+  border: 1px solid #000000;
   transition:
     transform 0.3s ease,
     border-color 0.3s ease;
