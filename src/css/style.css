@@ -1586,8 +1586,9 @@ body {
   margin-bottom: 20px;
   border-bottom: 2px solid #FFFFFF;
   padding-bottom: 15px;
-  width: 100%;
-  box-sizing: border-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .timeline-nav a {
