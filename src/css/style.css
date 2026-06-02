@@ -1249,9 +1249,8 @@ body {
 }
 
 .drone-type-card {
-  background-color: #383838;
-  border: 1px solid #959595;
-  border-top: 4px solid #959595;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -1261,21 +1260,20 @@ body {
 
 .drone-type-card:hover {
   transform: translateY(-5px);
-  border-color: #DADEDF;
+  border-color: #FFFFFF;
+  box-shadow: 0 8px 20px #FFFFFF;
 }
 
 .drone-img-box {
   width: 100%;
   height: 200px;
-  background-color: #555555;
+  background-color: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #666666;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
-  border-bottom: 1px solid #1B1B1B;
 }
 
 .drone-info {
@@ -1287,7 +1285,7 @@ body {
 
 .drone-info h3 {
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 22px;
   margin-bottom: 25px;
   text-transform: uppercase;
@@ -1303,22 +1301,22 @@ body {
 }
 
 .pros-title {
-  color: #4CAF50;
+  color: #000000;
   font-size: 14px;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #4CAF504D;
+  border-bottom: 1px solid #000000;
   padding-bottom: 5px;
 }
 
 .cons-title {
-  color: #F44336;
+  color: #000000;
   font-size: 14px;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #F443364D;
+  border-bottom: 1px solid #000000;
   padding-bottom: 5px;
 }
 
@@ -1333,7 +1331,7 @@ body {
   padding-left: 20px;
   margin-bottom: 8px;
   font-size: 13px;
-  color: #CCCCCC;
+  color: #000000;
   line-height: 1.5;
 }
 
@@ -1341,7 +1339,7 @@ body {
   content: '•';
   position: absolute;
   left: 0;
-  color: #DADEDF;
+  color: #000000;
   font-weight: bold;
 }
 
