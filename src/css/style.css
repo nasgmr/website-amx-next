@@ -1250,7 +1250,6 @@ body {
 
 .drone-type-card {
   background-color: #FFFFFF;
-  border: 1px solid #FFFFFF;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
