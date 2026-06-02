@@ -1584,12 +1584,12 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #FFFFFF1A;
+  border-bottom: 2px solid #FFFFFF;
   padding-bottom: 15px;
 }
 
 .timeline-nav a {
-  color: #888888;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -1599,14 +1599,14 @@ body {
 }
 
 .timeline-nav a:hover {
-  color: #FFFFFF;
-  background-color: #353535;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .timeline-nav a.active-year {
-  color: #DADEDF;
-  background-color: #959595;
-  border: 1px solid #DADEDF;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .portfolio-list {
@@ -1616,8 +1616,8 @@ body {
 }
 
 .portfolio-item {
-  background-color: #FFFFFF0D;
-  border-left: 4px solid #959595;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
   padding: 20px 25px;
   border-radius: 4px;
   transition: transform 0.2s ease;
@@ -1625,11 +1625,11 @@ body {
 
 .portfolio-item:hover {
   transform: translateX(10px);
-  background-color: #FFFFFF14;
+  background-color: #FFFFFF;
 }
 
 .portfolio-item p {
-  color: #DDDDDD;
+  color: #FFFFFF;
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
