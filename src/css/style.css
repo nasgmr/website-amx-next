@@ -723,7 +723,7 @@ body {
 
 .product-category {
   font-size: 20px;
-  color: #959595;
+  color: #FFFFFF;
   margin-bottom: 5px;
   font-weight: 500;
 }
@@ -747,9 +747,9 @@ body {
 }
 
 .btn-learn-more-products {
-  background-color: #959595;
+  border: 2.5px solid #FFFFFF;
   padding: 13px 22px;
-  color: #DADEDF;
+  color: #FFFFFF;
   text-decoration: none;
   border-radius: 9px;
   font-size: 25px;
@@ -757,19 +757,18 @@ body {
   transition:
     background-color 0.3s,
     color 0.3s;
-  cursor: pointer;
   display: inline-block;
 }
 
 .btn-learn-more-products:hover {
-  background-color: #DADEDF;
-  color: #4C4C4C;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .btn-shop {
-  background-color: #959595;
+  border: 2.5px solid #FFFFFF;
   padding: 13px 22px;
-  color: #DADEDF;
+  color: #FFFFFF;
   text-decoration: none;
   border-radius: 9px;
   font-size: 25px;
@@ -777,13 +776,12 @@ body {
   transition:
     background-color 0.3s,
     color 0.3s;
-  cursor: pointer;
   display: inline-block;
 }
 
 .btn-shop:hover {
-  background-color: #DADEDF;
-  color: #4C4C4C;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .drone-usage-section {
@@ -1012,7 +1010,7 @@ body {
 
 .sub-nav {
   display: flex;
-  border: 4px solid #DADEDF;
+  border: 4px solid #FFFFFF;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 30px;
@@ -1020,7 +1018,7 @@ body {
 
 .sub-nav a {
   padding: 15px 15px;
-  color: #DADEDF;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 16px;
   font-weight: 700;
@@ -1034,12 +1032,12 @@ body {
 }
 
 .sub-nav a.active {
-  background-color: #555555;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 .sub-nav a:hover {
-  background-color: #333333;
+  background-color: #D3D3D3;
 }
 
 .category-main-title {
