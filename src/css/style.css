@@ -973,7 +973,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  background: #FFFFFF0D;
+  background: none;
+  border: 1px solid #FFFFFF;
   padding: 30px;
   border-radius: 30px;
 }
