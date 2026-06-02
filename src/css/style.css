@@ -1918,6 +1918,11 @@ html, body, .homepage-body {
   width: 100%;
 }
 
+/* BREAK MOBILE */
+.mobile-br {
+  display: none;
+}
+
 
 
 /* MOBILE VERSION */
