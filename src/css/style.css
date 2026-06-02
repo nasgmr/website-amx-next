@@ -1599,8 +1599,8 @@ body {
 }
 
 .timeline-nav a:hover {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .timeline-nav a.active-year {
@@ -1626,7 +1626,6 @@ body {
 .portfolio-item:hover {
   transform: translateX(10px);
   background-color: #FFFFFF;
-  color: #000000;
 }
 
 .portfolio-item p {
@@ -1634,6 +1633,11 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
+}
+
+.portfolio-item:hover p {
+  color: #000000;
 }
 
 /* ABOUT US - ARTICLES PAGE */
