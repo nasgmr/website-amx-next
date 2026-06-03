@@ -1685,6 +1685,7 @@ body {
   left: 0;
   z-index: -1;
 }
+
 .articles-section {
   padding: 60px 20px;
   width: 100%;
@@ -1790,6 +1791,7 @@ body {
   width: auto !important;
   height: auto;
   background: transparent;
+  position: relative;
 }
 
 .list-card-image img {
@@ -1797,8 +1799,10 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000000 40%);
-  mask-image: linear-gradient(to right, transparent 0%, #000000 40%);
+  
+  /* Efek Fading Lembut agar Menyatu dengan Background/Teks di Sebelah Kirinya */
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 35%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 35%);
 }
 
 .article-meta {
