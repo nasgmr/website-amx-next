@@ -8,9 +8,10 @@ export default function ArticlesPage() {
     <main className="articles-section">
       <h1 className="articles-title">ARTICLES</h1>
 
+      {/* Kontainer utama langsung membungkus semua card secara berurutan */}
       <div className="articles-grid-container">
         
-        {/* Article 1 - Highlight */}
+        {/* 1. HIGHLIGHT ARTICLE (PALING ATAS) */}
         <div className="list-card">
           <div className="list-card-content">
             <h4 className="highlight-title" style={{ fontWeight: 600, color: '#000000', marginBottom: '10px', fontSize: '14px', letterSpacing: '1px' }}>HIGHLIGHT</h4>
@@ -34,7 +35,7 @@ export default function ArticlesPage() {
           </div>
         </div>
 
-        {/* Article 2 */}
+        {/* 2. ARTICLE 2 (DI TENGAH) */}
         <div className="list-card">
           <div className="list-card-content">
             <h3>Title Article 2</h3>
@@ -57,7 +58,7 @@ export default function ArticlesPage() {
           </div>
         </div>
 
-        {/* Article 3 */}
+        {/* 3. ARTICLE 3 (PALING BAWAH) */}
         <div className="list-card">
           <div className="list-card-content">
             <h3>Title Article 3</h3>
