@@ -1562,161 +1562,85 @@ body {
   filter: none;
 }
 
-/* ABOUT US - ARTICLES PAGE */
-.aboutus-page .navbar-container {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: transparent !important;
-  z-index: 1000;
-  border: none;
-}
-
-.aboutus-page .article-hero-container {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-
-.aboutus-page .article-hero-bg {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 80px;
-
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 100%);
-  mask-image: linear-gradient(to bottom, transparent 0%, black 100%);
-}
-
-.aboutus-page .article-hero-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.articles-section {
-  padding: 80px 5%;
-  width: 100%;
-  max-width: 1000px;
+/* ABOUT US - PORTFOLIO PAGE */
+.portfolio-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 700px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
-.articles-title {
-  color: #FFFFFF;
-  font-size: 45px;
-  text-transform: uppercase;
+.portfolio-header h1 {
+  font-size: 36px;
   margin-bottom: 60px;
   text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 2px;
 }
 
-/* Mengubah grid murni menjadi satu kolom lurus ke bawah */
-.articles-grid-container {
+.timeline-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 15px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.timeline-nav a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.timeline-nav a.active-year {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.portfolio-list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  width: 100%;
-}
-
-/* List Card Base (Mengikuti Logika .hp-card-list) */
-.list-card {
-  display: flex;
-  flex-direction: row; 
-  background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 55%, #FFFFFF 100%);
-  border-radius: 15px;
-  overflow: hidden;
-  min-height: 200px;
-  width: 100%;
-  box-shadow: 0 8px 20px #0000004D;
-}
-
-/* Bagian Text */
-.list-card-content {
-  flex: 1.3;
-  padding: 30px;
-  color: #000000;
-  z-index: 2;
-  box-sizing: border-box;
-}
-
-.list-card-content h3 {
-  color: #000000;
-  font-size: 24px;
-  margin: 0 0 10px 0;
-  font-weight: bold;
-}
-
-/* Bagian Gambar */
-.list-card-image {
-  flex: 1;
-  background: transparent;
-  position: relative;
-}
-
-.list-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  
-  /* Efek blending kiri memudar halus masuk ke area teks */
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000000 35%);
-  mask-image: linear-gradient(to right, transparent 0%, #000000 35%);
-}
-
-/* Meta info & Button */
-.article-meta {
-  display: flex;
-  flex-direction: row;
   gap: 15px;
-  font-size: 11px;
-  color: #000000;
-  margin-bottom: 15px;
-  font-weight: 500;
 }
 
-.meta-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.portfolio-item {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  padding: 20px 25px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
 }
 
-.article-brief {
-  color: #000000;
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 0 0 20px 0;
+.portfolio-item:hover {
+  transform: translateX(10px);
+  background-color: #FFFFFF;
 }
 
-.btn-read-more {
-  display: inline-block;
-  border: 2.5px solid #000000;
-  color: #000000;
-  padding: 8px 20px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition:
-    background-color 0.3s,
-    color 0.3s;
-  margin-top: 35px;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.btn-read-more:hover {
-  background-color: #000000;
+.portfolio-item p {
   color: #FFFFFF;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.portfolio-item:hover p {
+  color: #000000;
 }
 
 /* ABOUT US - ARTICLES PAGE */
