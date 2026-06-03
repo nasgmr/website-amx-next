@@ -14,7 +14,6 @@ export default function ArticlesPage() {
         {/* 1. HIGHLIGHT ARTICLE (PALING ATAS) */}
         <div className="list-card">
           <div className="list-card-content">
-            <h4 className="highlight-title" style={{ fontWeight: 600, color: '#000000', marginBottom: '10px', fontSize: '14px', letterSpacing: '1px' }}>HIGHLIGHT</h4>
             <h3>Title Article 1</h3>
             <div className="article-meta">
               <span className="meta-item">
