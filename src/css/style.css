@@ -2452,17 +2452,20 @@ html, body, .homepage-body {
     flex-direction: column !important;
     gap: 30px;
   }
-
   .detail-header {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-
   .product-category {
-    color: #D9D9D9;
+    color: #FFFFFF;
   }
-
+  .product-info p {
+    color: #FFFFFF;
+  }
+  .content-list li {
+    color: #FFFFFF;
+  }
   .detail-description {
     text-align: justify !important;
     line-height: 1.6;
@@ -2472,7 +2475,6 @@ html, body, .homepage-body {
     max-width: 100% !important;
     height: auto !important;
   }
-
   .detail-image-box {
     width: 100% !important;
     max-width: 100% !important;
@@ -2484,19 +2486,16 @@ html, body, .homepage-body {
     border-radius: 12px !important;
     margin-bottom: 15px !important;
   }
-
   .specs-grid {
     display: table !important;
     width: 100% !important;
     border-collapse: collapse !important;
     gap: 0 !important;
   }
-
   .spec-item {
     display: table-row !important;
     width: unset !important;
   }
-
   .spec-item h4 {
     display: table-cell !important;
     border: 3px solid #C4C4C4 !important;
@@ -2505,10 +2504,10 @@ html, body, .homepage-body {
     width: 35% !important;
     vertical-align: middle !important;
     font-size: 16px !important;
+    font-weight: 600 !important;
     margin: 0 !important;
     color: #000000 !important;
   }
-
   .spec-item ul,
   .spec-item p {
     display: table-cell !important;
@@ -2518,16 +2517,13 @@ html, body, .homepage-body {
     font-size: 14px !important;
     margin: 0 !important;
   }
-
   .spec-item ul {
     padding-left: 16px !important;
   }
-
   .spec-item.full-width {
     grid-column: unset !important;
     display: table-row !important;
   }
-
   .additional-info {
     display: table !important;
     width: 100% !important;
@@ -2536,14 +2532,12 @@ html, body, .homepage-body {
     border-radius: 0 !important;
     padding: 0 !important;
   }
-
   .info-box {
     display: table-row !important;
     background: none !important;
     border-radius: 0 !important;
     padding: 0 !important;
   }
-
   .info-box h4 {
     display: table-cell !important;
     border: 3px solid #C4C4C4 !important;
@@ -2555,7 +2549,6 @@ html, body, .homepage-body {
     margin: 0 !important;
     color: #000000 !important;
   }
-
   .info-box ul {
     list-style: disc !important;
     display: table-cell !important;
@@ -2567,7 +2560,6 @@ html, body, .homepage-body {
     margin: 0 !important;
     color: #FFFFFF !important;
   }
-
   .info-box ul li {
     display: list-item !important;
     border: none !important;
@@ -2711,6 +2703,13 @@ html, body, .homepage-body {
   .comparison-grid .grid-col-right {
     width: 100% !important;
     min-width: 0 !important;
+  }
+
+  .mode-card,
+  .mode-img-box {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: 2px solid #FFFFFF !important;
   }
 
   /* DRONEPEDIA - APPLICATIONS PAGE */
