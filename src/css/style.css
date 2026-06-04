@@ -1977,7 +1977,7 @@ html, body, .homepage-body {
     display: block;
     box-sizing: border-box;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 8px !important;
   }
   .dropdown:hover .dropdown-content {
     display: none;
