@@ -2616,6 +2616,10 @@ html, body, .homepage-body {
     height: 200px !important;
   }
 
+  .mobile-br {
+    display: block !important;
+  }
+
   /* USE CASE PAGE */
   .use-case-container {
   padding: 40px 20px;
