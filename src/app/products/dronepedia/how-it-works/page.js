@@ -21,7 +21,7 @@ export default function HowItWorksPage() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/img/manual mode.png" alt="Manual Mode" />
               </div>
-              <div className="mode-info">
+              <div className="mode-info manual-info">
                 <h3>Manual Mode</h3>
                 <p>Pilot/Operator directly control the aircraft through radio controller without sensors and flight controller assistant.</p>
               </div>

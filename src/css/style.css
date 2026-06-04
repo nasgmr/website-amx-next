@@ -2693,13 +2693,18 @@ html, body, .homepage-body {
     font-size: 16px !important;
     line-height: 1.5 !important;
   }
+  .manual-info {
+    min-height: unset !important;
+    flex-grow: 1 !important;
+    height: auto !important;
+  }
   .auto-info {
     min-height: unset !important;
     flex-grow: 0 !important;
     height: auto !important;
   }
   .pdf-style-grid .mode-info {
-    flex-grow: 1 !important;
+    flex-grow: 0 !important;
     height: auto !important;
   }
   .auto-card {
