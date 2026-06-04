@@ -2738,7 +2738,7 @@ html, body, .homepage-body {
     height: auto !important;
     max-height: unset !important; 
     display: block !important;
-    object-fit: cover !important;
+    object-fit: contain !important;
   }
 
   .mode-info {
