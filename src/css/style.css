@@ -2699,7 +2699,7 @@ html, body, .homepage-body {
     height: auto !important;
   }
   .pdf-style-grid .mode-info {
-    flex-grow: 0 !important;
+    flex-grow: 1 !important;
     height: auto !important;
   }
   .auto-card {
