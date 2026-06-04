@@ -2708,6 +2708,9 @@ html, body, .homepage-body {
     background-color: #000000 !important;
     background: transparent !important;
   }
+  .mode-img-box img {
+    mix-blend-mode: multiply !important;
+  }
   .mode-info h3 {
     font-weight: 600 !important;
     font-size: 20px !important;
