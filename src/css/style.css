@@ -1987,10 +1987,16 @@ html, body, .homepage-body {
   .dropdown-content .mobile-only-menu {
     display: block !important;
   }
+  .dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
   .dropdown-content {
     display: none;
     flex-direction: column;
-    background-color: #2A2A2A;
+    background-color: #FFFFFF;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -2004,7 +2010,7 @@ html, body, .homepage-body {
     font-size: 13px;
     padding: 12px;
     text-align: center;
-    border-bottom: 1px solid #FFFFFF0D;
+    border-bottom: 1px solid #000000;
     margin: 0;
     border-radius: 0;
   }
