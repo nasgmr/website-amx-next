@@ -2194,8 +2194,8 @@ html, body, .homepage-body {
     width: 100%;
     object-fit: cover;
     display: block;
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #FFFFFF 40%);
-    mask-image: linear-gradient(to bottom, transparent 0%, #FFFFFF 40%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000000 40%);
+    mask-image: linear-gradient(to bottom, transparent 0%, #000000 40%);
   }
 
   .hp-card-list {
@@ -2222,10 +2222,10 @@ html, body, .homepage-body {
     display: block;
     -webkit-mask-image: linear-gradient(
       to bottom,
-      #FFFFFF 50%,
+      #000000 50%,
       transparent 100%
     );
-    mask-image: linear-gradient(to bottom, #FFFFFF 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
   }
 
   .hp-card-list-text {
@@ -2319,14 +2319,12 @@ html, body, .homepage-body {
     width: 45px;
     height: 45px;
     color: #FFFFFF;
-    border-color: #000000;
-    border-width: 2px;
-    border-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: transform 0.15s ease-out;
+    filter: drop-shadow(0 4px 8px #00000066);
   }
 
   .hp-arrow:active {
