@@ -2697,6 +2697,7 @@ html, body, .homepage-body {
     gap: 20px !important;
     width: 100% !important;
   }
+  
   .pdf-style-grid .grid-col-left,
   .pdf-style-grid .grid-col-right,
   .comparison-grid .grid-col-left,
@@ -2704,13 +2705,63 @@ html, body, .homepage-body {
     width: 100% !important;
     min-width: 0 !important;
   }
+
+  .mode-card {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    border: 1px solid #FFFFFF !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+  }
+
+  .mode-img-box,
+  .grid-col-left .mode-img-box,
+  .grid-col-right .mode-img-box,
+  .auto-img-box {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    padding: 0 !important;
+    min-height: unset !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .mode-img-box img,
+  .grid-col-left .mode-img-box img,
+  .grid-col-right .mode-img-box img,
+  img.large-img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: unset !important; 
+    display: block !important;
+    object-fit: cover !important;
+  }
+
+  .mode-info {
+    background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+    border-top: 1px solid #FFFFFF !important;
+    padding: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
   .mode-info h3 {
+    color: #000000 !important;
     font-weight: 600 !important;
     font-size: 20px !important;
+    margin-top: 0 !important;
   }
+  
   .mode-info p {
+    color: #000000 !important;
     font-weight: 400 !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
   }
 
   /* DRONEPEDIA - APPLICATIONS PAGE */
