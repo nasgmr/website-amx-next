@@ -2704,23 +2704,6 @@ html, body, .homepage-body {
     width: 100% !important;
     min-width: 0 !important;
   }
-  .mode-card,
-  .mode-img-box {
-    background-color: transparent !important;
-    background: transparent !important;
-  }
-  .grid-col-left .mode-img-box,
-  .grid-col-right .mode-img-box,
-  .auto-img-box {
-    background-color: transparent !important;
-    background: transparent !important;
-  }
-  .mode-img-box img {
-    mix-blend-mode: multiply !important;
-  }
-  .mode-info {
-    font-weight: normal !important;
-  }
   .mode-info h3 {
     font-weight: 600 !important;
     font-size: 20px !important;
