@@ -2959,7 +2959,8 @@ html, body, .homepage-body {
     display: flex !important;
     flex-direction: row !important;
 
-    justify-content: space-between !important;
+    justify-content: center !important;
+    gap: 25px !important;
 
     align-items: center !important;
 
@@ -2970,7 +2971,7 @@ html, body, .homepage-body {
   }
 
   .footer-left {
-    flex: 1 !important;
+    flex: initial !important;
     display: flex !important;
     justify-content: flex-start !important;
   }
@@ -2982,7 +2983,7 @@ html, body, .homepage-body {
   }
 
   .footer-right {
-    flex: 1 !important;
+    flex: initial !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-end !important;
