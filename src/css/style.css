@@ -2620,7 +2620,7 @@ html, body, .homepage-body {
     font-size: 14px !important;
   }
 
-/* DRONEPEDIA - HOW IT WORKS + CLASSIFICATION PAGE */
+  /* DRONEPEDIA - HOW IT WORKS + CLASSIFICATION PAGE */
   .pdf-style-grid,
   .comparison-grid,
   .classification-grid,
@@ -2658,7 +2658,7 @@ html, body, .homepage-body {
     height: auto !important;
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important;
+    align-items: flex-end !important;
     width: 100% !important;
   }
   .pdf-style-grid .mode-img-box img,
@@ -2671,6 +2671,7 @@ html, body, .homepage-body {
     max-height: unset !important;
     display: block !important;
     object-fit: contain !important;
+    margin-bottom: -1px !important;
   }
   .mode-info {
     background-color: #FFFFFF !important;
@@ -2703,10 +2704,6 @@ html, body, .homepage-body {
   }
   .auto-card {
     height: auto !important;
-  }
-  .pdf-style-grid .mode-img-box {
-    align-items: flex-end !important;
-    padding-bottom: 0 !important;
   }
 
   /* DRONEPEDIA - APPLICATIONS PAGE */
