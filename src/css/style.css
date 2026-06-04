@@ -2711,6 +2711,19 @@ html, body, .homepage-body {
     background-color: transparent !important;
     background: transparent !important;
   }
+  .mode-info {
+    background-color: transparent !important;
+    background: transparent !important;
+    padding: 20px !important;
+  }
+  .mode-info h3 {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+  }
+  .mode-info p {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
 
   /* DRONEPEDIA - APPLICATIONS PAGE */
   .applications-grid {
