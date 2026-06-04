@@ -2964,7 +2964,7 @@ html, body, .homepage-body {
 
     align-items: center !important;
 
-    padding: 12px 24px !important;
+    padding: 24px 24px !important;
     padding-bottom: calc(12px + env(safe-area-inset-bottom)) !important;
     box-sizing: border-box !important;
     margin: 0 !important;
@@ -2973,7 +2973,7 @@ html, body, .homepage-body {
     flex: initial !important;
     display: flex !important;
     justify-content: flex-start !important;
-    padding-left: 25px !important;
+    padding-left: 35px !important;
   }
   .footer-left p {
     font-size: 7px !important;
