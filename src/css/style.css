@@ -2662,14 +2662,19 @@ html, body, .homepage-body {
     margin-bottom: 15px;
   }
 
-  .case-stats-table {
+table.case-stats-table,
+  table.case-stats-table tbody {
+    display: table !important;
     width: 100% !important;
     border-collapse: collapse !important;
-    font-size: 14px;
-    margin-top: 10px;
   }
 
-  .case-stats-table th {
+  table.case-stats-table tr {
+    display: table-row !important;
+  }
+
+  table.case-stats-table th {
+    display: table-cell !important;
     text-align: left !important;
     padding: 8px 12px !important;
     width: 35% !important;
@@ -2681,7 +2686,8 @@ html, body, .homepage-body {
     vertical-align: middle !important;
   }
 
-  .case-stats-table td {
+  table.case-stats-table td {
+    display: table-cell !important;
     padding: 8px 12px !important;
     vertical-align: middle !important;
     border: 3px solid #C4C4C4 !important;
