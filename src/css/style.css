@@ -2704,10 +2704,9 @@ html, body, .homepage-body {
   .auto-card {
     height: auto !important;
   }
-  .pdf-style-grid .mode-img-box img {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
+  .pdf-style-grid .mode-img-box {
+    align-items: flex-end !important;
+    padding-bottom: 0 !important;
   }
 
   /* DRONEPEDIA - APPLICATIONS PAGE */
@@ -2815,7 +2814,7 @@ html, body, .homepage-body {
   }
   .partner-logo-box {
     border-color: #FFFFFF !important;
-    box-shadow: 0 4px 10px #DADEDF !important;
+    box-shadow: 0 4px 10px #000000 !important;
     width: 140px !important;
     height: 140px !important;
     box-sizing: border-box !important;
