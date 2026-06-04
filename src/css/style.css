@@ -1999,12 +1999,12 @@ html, body, .homepage-body {
     flex-direction: column;
     background-color: #FFFFFF;
     width: 100%;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 8px;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    border-radius: 8px !important;
     box-shadow: none;
     position: relative;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
   }
   .dropdown-content a {
     color: #000000;
