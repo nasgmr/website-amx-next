@@ -1968,7 +1968,7 @@ html, body, .homepage-body {
     align-items: center;
     box-sizing: border-box;
   }
-  .nav-links a,
+  .nav-links li > a,
   .dropbtn {
     font-size: 15px;
     padding: 12px;
