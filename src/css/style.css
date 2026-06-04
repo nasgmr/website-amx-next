@@ -2695,7 +2695,7 @@ html, body, .homepage-body {
   }
   .manual-info {
     min-height: unset !important;
-    flex-grow: 1 !important;
+    flex-grow: 0 !important;
     height: auto !important;
   }
   .auto-info {
