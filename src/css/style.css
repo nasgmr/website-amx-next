@@ -2319,6 +2319,9 @@ html, body, .homepage-body {
     width: 45px;
     height: 45px;
     color: #FFFFFF;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
