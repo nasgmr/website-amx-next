@@ -1977,6 +1977,7 @@ html, body, .homepage-body {
     display: block;
     box-sizing: border-box;
     text-align: center;
+    border-radius: 8px;
   }
   .dropdown:hover .dropdown-content {
     display: none;
@@ -2006,11 +2007,11 @@ html, body, .homepage-body {
     box-sizing: border-box;
   }
   .dropdown-content a {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 13px;
     padding: 12px;
     text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2.5px solid #000000;
     margin: 0;
     border-radius: 0;
   }
