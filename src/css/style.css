@@ -2953,25 +2953,18 @@ html, body, .homepage-body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     will-change: transform;
-
     background-color: #000000 !important;
-
     display: flex !important;
     flex-direction: row !important;
-
-    justify-content: center !important;
-    gap: 25px !important;
-
+    justify-content: space-between !important;
     align-items: center !important;
-
     padding: 12px 24px !important;
     padding-bottom: calc(12px + env(safe-area-inset-bottom)) !important;
     box-sizing: border-box !important;
     margin: 0 !important;
   }
-
   .footer-left {
-    flex: initial !important;
+    flex: 1 !important; 
     display: flex !important;
     justify-content: flex-start !important;
   }
@@ -2981,17 +2974,16 @@ html, body, .homepage-body {
     margin: 0 !important;
     line-height: 1.4 !important;
   }
-
   .footer-right {
-    flex: initial !important;
+    flex: 1 !important; 
     display: flex !important;
     flex-direction: column !important;
-    align-items: flex-end !important;
+    align-items: center !important; 
   }
   .footer-right p,
   .footer-right a {
     font-size: 7px !important;
-    text-align: right !important;
+    text-align: center !important; 
     margin: 0 !important;
     line-height: 1.4 !important;
     display: block !important;
