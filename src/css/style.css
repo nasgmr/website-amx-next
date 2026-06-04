@@ -2697,7 +2697,6 @@ html, body, .homepage-body {
     gap: 20px !important;
     width: 100% !important;
   }
-
   .pdf-style-grid .grid-col-left,
   .pdf-style-grid .grid-col-right,
   .comparison-grid .grid-col-left,
@@ -2705,16 +2704,10 @@ html, body, .homepage-body {
     width: 100% !important;
     min-width: 0 !important;
   }
-
   .mode-card,
   .mode-img-box {
-    background-color: transparent !important;
+    background-color: #000000 !important;
     background: transparent !important;
-  }
-  .mode-info {
-    background-color: transparent !important;
-    background: transparent !important;
-    padding: 20px !important;
   }
   .mode-info h3 {
     font-weight: 600 !important;
