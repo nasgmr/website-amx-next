@@ -4,7 +4,7 @@ Official website for **AMX UAV Technologies**, built with Next.js. The site serv
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
 - **Language:** JavaScript (React 19)
@@ -13,7 +13,7 @@ Official website for **AMX UAV Technologies**, built with Next.js. The site serv
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -22,6 +22,8 @@ src/
 │   ├── layout.js                # Root layout (Navbar + Footer)
 │   ├── products/
 │   │   ├── mapping/             # Mapping drone products
+│   │   │   ├── vertic-air/
+│   │   │   ├── vertic-xl/
 │   │   ├── education/           # Education drone products
 │   │   │   └── qubit/
 │   │   └── dronepedia/          # Dronepedia section
@@ -47,7 +49,7 @@ src/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -79,7 +81,7 @@ npm run start
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Script | Description |
 |--------|-------------|
@@ -90,7 +92,7 @@ npm run start
 
 ---
 
-## 🔗 Links
+## Links
 
 - **Live Site:** [amx-uav.vercel.app](https://amx-uav.vercel.app)
 - **Instagram:** [@amx.uav](https://www.instagram.com/amx.uav)
@@ -99,6 +101,6 @@ npm run start
 
 ---
 
-## 📄 License
+## License
 
 Private project — © 2026 AMX UAV Technologies. All rights reserved.
